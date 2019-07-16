@@ -119,6 +119,15 @@ case $build in
     #scp root@172.28.200.80:/usr/bin/minihttp_test
     ;;
 
+    osdrv1)
+    # For test
+    ./scripts/feeds update glutinium
+    ./scripts/feeds install -f -p glutinium hisi-osdrv1-base hisi-sample
+    make package/feeds/glutinium/hisi-osdrv1/clean  &&  make -j1 V=s package/feeds/glutinium/hisi-osdrv1/compile  &&  make -j1 V=s package/feeds/glutinium/hisi-osdrv1/install
+    make package/feeds/glutinium/hisi-sample/clean  &&  make -j1 V=s package/feeds/glutinium/hisi-sample/compile  &&  make -j1 V=s package/feeds/glutinium/hisi-sample/install
+    #scp ./bin/hisilicon/packages/glutinium/*.ipk zig@172.28.200.74:~
+    ;;
+
   osdrv2)
     # For test
     ./scripts/feeds update glutinium
