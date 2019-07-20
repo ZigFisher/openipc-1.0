@@ -15,6 +15,24 @@ fi
 
 case $build in
 
+ smartfrog)
+    SOC='hi3518cv100'
+    # SOC=${build}
+    echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.8"                  # For SoC’s HI3518C_V100 only with kernel 3.0.8
+    cp target/linux/hisilicon/examples/.config_armv5tej_smartfrog_20190714_wlan  ./.config                    # Copy default config
+    cd target/linux/hisilicon/
+    rm config-3.0.8
+    ln -s config-3.0.8.smartfrog config-3.0.8
+    cd ../../../
+    sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
+    make clean
+    time make V=99 -j1 CONFIG_DEBUG_SECTION_MISMATCH=y                                           # Clean and compile
+    DATE=$(date +%Y%m%d%H%m)                                 # Set time
+    #tar cvzf ../smartfrog/backup/openwrt-smartfrog-${SOC}-${DATE}.tgz bin/hisilicon/*       # Copy Firmware
+    #cp -r bin/hisilicon/packages/* ../smartfrog/packages/
+    ;;
+
+
   hi3516cv100|hi3518av100|hi3518cv100|hi3518ev100)
     SOC=${build}
     echo -e "\nStart building OpenWrt firmware for ${SOC} with kernel 3.0.8"                  # For SoC’s HI35_16C_18ACE_V100 only with kernel 3.0.8
