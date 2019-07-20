@@ -22,7 +22,7 @@ case $build in
     cp target/linux/hisilicon/examples/.config_armv5tej_smartfrog_20190714_wlan  ./.config                    # Copy default config
     cd target/linux/hisilicon/
     rm config-3.0.8
-    ln -s config-3.0.8.smartfrog config-3.0.8
+    ln -s config-3.0.8.smartfrog config-3.0.8                                                 # Set kernel-config for smartfrog
     cd ../../../
     sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
     make clean
