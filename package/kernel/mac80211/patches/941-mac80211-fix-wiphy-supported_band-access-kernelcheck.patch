@@ -4,7 +4,7 @@
         u8 *payload;
         int offset = 0, remaining, err;
         struct ethhdr eth;
-+#if LINUX_VERSION_IS_LESS(3,5,0)
++#if LINUX_VERSION_CODE < KERNEL_VERSION(3,5,0)
 +       bool reuse_frag = 0;
 +#else
         bool reuse_frag = skb->head_frag && !skb_has_frag_list(skb);
