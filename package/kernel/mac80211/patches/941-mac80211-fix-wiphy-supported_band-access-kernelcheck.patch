@@ -1,13 +1,3 @@
-From: Claus Marxmeier <alladin@routeme.de>
-Date: Sa, 21 Jul 2019 02:24:19 +0200
-Subject: [PATCH] cfg80211: reuse existing page fragments in A-MSDU rx - Kernel version check
-
-added Kernel-version check to get build with Kernel 3.0.8
-
-Signed-off-by: Claus Marxmeier <alladin@routeme.de>
----
-
-
 --- a/net/wireless/util.c  2019-07-21 02:18:00.303302041 +0200
 +++ b/net/wireless/util.c  2019-07-21 02:19:39.748557471 +0200
 @@ -746,7 +746,11 @@
