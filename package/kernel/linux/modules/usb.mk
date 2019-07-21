@@ -324,8 +324,10 @@ define KernelPackage/usb-ohci
 	CONFIG_USB_OHCI_HCD_OMAP3=y \
 	CONFIG_USB_OHCI_HCD_PLATFORM=y
   FILES:= \
-	$(LINUX_DIR)/drivers/usb/host/ohci-hcd.ko \
-	$(LINUX_DIR)/drivers/usb/host/ohci-platform.ko
+	$(LINUX_DIR)/drivers/usb/host/ohci-hcd.ko
+  ifneq ($(wildcard $(LINUX_DIR)/drivers/usb/host/ohci-platform.ko),)
+    FILES+=$(LINUX_DIR)/drivers/usb/host/ohci-platform.ko
+  endif
   ifneq ($(wildcard $(LINUX_DIR)/drivers/usb/host/ohci-at91.ko),)
     FILES+=$(LINUX_DIR)/drivers/usb/host/ohci-at91.ko
   endif
