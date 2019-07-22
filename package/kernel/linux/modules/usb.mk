@@ -435,8 +435,10 @@ define KernelPackage/usb2
 	CONFIG_USB_EHCI_HCD_PLATFORM=y \
 	CONFIG_USB_EHCI_HCD_AT91=y
   FILES:= \
-	$(LINUX_DIR)/drivers/usb/host/ehci-hcd.ko \
-	$(LINUX_DIR)/drivers/usb/host/ehci-platform.ko
+	$(LINUX_DIR)/drivers/usb/host/ehci-hcd.ko
+  ifneq ($(wildcard $(LINUX_DIR)/drivers/usb/host/ehci-platform.ko),)
+    FILES+=$(LINUX_DIR)/drivers/usb/host/ehci-platform.ko
+  endif
   ifneq ($(wildcard $(LINUX_DIR)/drivers/usb/host/ehci-orion.ko),)
     FILES+=$(LINUX_DIR)/drivers/usb/host/ehci-orion.ko
   endif
