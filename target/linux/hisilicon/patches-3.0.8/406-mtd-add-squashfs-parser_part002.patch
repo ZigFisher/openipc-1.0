@@ -1,0 +1,10 @@
+--- a/drivers/mtd/Makefile	2019-07-22 17:57:22.625668576 +0200
++++ b/drivers/mtd/Makefile	2019-07-22 17:57:50.333997127 +0200
+@@ -7,6 +7,7 @@
+ mtd-y				:= mtdcore.o mtdsuper.o mtdconcat.o mtdpart.o
+ 
+ mtd-$(CONFIG_MTD_SPLIT)         += mtdsplit/mtdsplit.o
++mtd-$(CONFIG_MTD_SPLIT_SQUASHFS_ROOT) += mtdsplit/mtdsplit_squashfs.o
+ 
+ mtd-$(CONFIG_MTD_OF_PARTS)	+= ofpart.o
+ 
