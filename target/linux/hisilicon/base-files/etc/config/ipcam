@@ -3,15 +3,15 @@
 #
 
 config ipcam 'global'
-	option vendor	'jvt'
-	option model	's130h18v'
-	option soc	'hi3518ev200'
-	option totmem	'64M'
-	option sysmem	'40M'
-	option flash	'8M'
+        option vendor   'zmodo'
+        option model    'ZH-IXU1D-MAC'
+        option soc      'hi3518cv100'
+        option totmem   '64M'
+        option sysmem   '40M'
+        option flash    '16M'
 
 config ipcam 'video'
-	option sensor	'ar0130'
+        option sensor   'ov9712'
 
 config ipcam 'gpio'
 	option ircut	'64,65,0'
