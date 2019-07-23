@@ -1,0 +1,10 @@
+--- a/drivers/mtd/mtdpart.c	2019-07-23 16:07:04.459259792 +0200
++++ b/idrivers/mtd/mtdpart.c	2019-07-23 16:08:26.692346483 +0200
+@@ -29,6 +29,7 @@
+ #include <linux/kmod.h>
+ #include <linux/mtd/mtd.h>
+ #include <linux/mtd/partitions.h>
++#include <linux/mtd/map.h>
+ #include <linux/magic.h>
+ #include <linux/err.h>
+ 
