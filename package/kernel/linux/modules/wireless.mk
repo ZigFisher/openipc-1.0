@@ -62,7 +62,7 @@ define KernelPackage/net-rtl8188eu
 	CONFIG_R8188EU \
 	CONFIG_88EU_AP_MODE=y \
 	CONFIG_88EU_P2P=n
-  FILES:=$(LINUX_DIR)/drivers/staging/rtl8188eu/r8188eu.ko
+  FILES:=$(LINUX_DIR)/drivers/staging/rtl8188eu/8188eu.ko
   AUTOLOAD:=$(call AutoProbe,r8188eu)
 endef
 
