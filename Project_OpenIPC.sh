@@ -25,6 +25,7 @@ case $build in
     ln -s config-3.0.8.smartfrog config-3.0.8                                                 # Set kernel-config for smartfrog
     cd ../../../
     sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
+    chmod +x feeds/glutinium/hisi-osdrv1/script/*.sh
     make clean
     time make V=99 -j1 CONFIG_DEBUG_SECTION_MISMATCH=y                                           # Clean and compile
     DATE=$(date +%Y%m%d%H%m)                                 # Set time
