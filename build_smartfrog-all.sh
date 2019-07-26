@@ -5,4 +5,4 @@ then
    ./scripts/feeds install -a
 fi
 
-./Project_OpenIPC.sh allsmartfrog | tee build-all.log
+./Project_OpenIPC.sh allsmartfrog
