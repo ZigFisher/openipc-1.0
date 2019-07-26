@@ -51,7 +51,7 @@ case $build in
     make clean
     # Stage II
     # for all packages after image and base packages built successfully
-    time CONFIG_ALL=y make -j 1V=99 IGNORE_ERRORS=m                                         # Clean and compile ALL
+    time CONFIG_ALL=y IGNORE_ERRORS=y make -j 1V=99                                          # Clean and compile ALL
     DATE=$(date +%Y%m%d%H%m)                                 # Set time
     #tar cvzf ../smartfrog/backup/openwrt-smartfrog-all-${SOC}-${DATE}.tgz bin/hisilicon/*       # Copy Firmware
     #cp -r bin/hisilicon/packages/* ../smartfrog/packages/
