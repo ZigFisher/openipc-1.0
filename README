@@ -7,3 +7,5 @@ minimum requirements:
 sudo apt-get install git-core build-essential libssl-dev libncurses5-dev unzip gawk zlib1g-dev subversion mercurial b43-fwcutter
 
 for smartfrog cam start with ./build_smartfrog.sh
+
+CAUTION: Test every uImage first by booting from RAM before changing nvram/mtd on device.
