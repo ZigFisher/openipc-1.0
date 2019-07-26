@@ -40,7 +40,7 @@ case $build in
    smartfrog-all)
     SOC='hi3518cv100'
     # SOC=${build}
-    echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.8"                  # For SoC’s HI3518C_V100 only with kernel 3.0.y
+    echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.8 and all packages"                  # For SoC’s HI3518C_V100 only with kernel 3.0.y
     cp target/linux/hisilicon/examples/.config_armv5tej_smartfrog_20190725_all  ./.config                    # Copy default config
     cd target/linux/hisilicon/
     rm config-3.0.8
