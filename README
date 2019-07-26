@@ -1,3 +1,9 @@
 This is the buildsystem for the OpenWrt Linux distribution for hisilicon Hi3518CV100 devices.
 
+Build environment:
+Linux Mint 19 32bit
 
+minimum requirements:
+sudo apt-get install git-core build-essential libssl-dev libncurses5-dev unzip gawk zlib1g-dev subversion mercurial b43-fwcutter
+
+for smartfrog cam start with ./build_smartfrog.sh
