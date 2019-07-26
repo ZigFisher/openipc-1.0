@@ -37,7 +37,7 @@ case $build in
     ;;
 
 
-   smartfrog-all)
+   allsmart)
     SOC='hi3518cv100'
     # SOC=${build}
     echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.8 and all packages"                  # For SoC’s HI3518C_V100 only with kernel 3.0.y
