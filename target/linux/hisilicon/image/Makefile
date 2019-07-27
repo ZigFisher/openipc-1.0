@@ -18,7 +18,7 @@ LOADADDR:=0x80008000
 #define Image/BuildKernel
 #	mkimage -A arm -O linux -T kernel -C none \
 #		-a $(LOADADDR) \
-#		-n 'OpenIPC.org - Hisilicon Linux-$(LINUX_VERSION)' \
+#		-n 'OpenIPC.org | Linux-$(LINUX_VERSION)' \
 #		-d $(KDIR)/linux-$(LINUX_VERSION)/arch/arm/boot/zImage $(BIN_DIR)/uImage-OpenWrt-HI35xx
 #endef
 
@@ -97,12 +97,12 @@ define Image/Build
 #
 	mkimage -A arm -O linux -T kernel -C none \
 		-a $(LOADADDR) \
-		-n 'OpenIPC.org - Hisilicon Linux-$(LINUX_VERSION)' \
+		-n 'OpenIPC.org | Linux-$(LINUX_VERSION)' \
 		-d $(KDIR)/zImage $(BIN_DIR)/$(IMG_PREFIX)-$(LINUX_VERSION)-uImage
 #
 	mkimage -A arm -O linux -T kernel -C none \
 		-a $(LOADADDR) \
-		-n 'OpenIPC.org - Hisilicon Linux-$(LINUX_VERSION)' \
+		-n 'OpenIPC.org | Linux-$(LINUX_VERSION)' \
 		-d $(KDIR)/zImage-initramfs $(BIN_DIR)/$(IMG_PREFIX)-$(LINUX_VERSION)-initramfs-uImage
 #
 #
