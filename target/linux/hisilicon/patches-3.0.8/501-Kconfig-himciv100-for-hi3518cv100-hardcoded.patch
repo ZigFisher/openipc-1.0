@@ -1,0 +1,52 @@
+--- a/drivers/mmc/host/himciv100/Kconfig	2019-07-26 23:18:26.062791663 +0200
++++ b/drivers/mmc/host/himciv100/Kconfig	2019-07-26 23:19:51.035832378 +0200
+@@ -4,8 +4,7 @@
+ 
+ menuconfig HIMCIV100
+ 	tristate "himciv100 sd/mmc device support"
+-	depends on (ARCH_GODEYES || ARCH_GODBOX || ARCH_GODNET || ARCH_PHOENIX || ARCH_GODARM || ARCH_HI3518)
+-	default y if (ARCH_GODEYES || ARCH_GODBOX || ARCH_GODNET || ARCH_PHOENIX || ARCH_GODARM || ARCH_HI3518)
++	default y 
+ 	select MMC_UNSAFE_RESUME
+ 	select MMC_EMBEDDED_SDIO
+ 	select MMC_BLOCK
+@@ -21,35 +20,19 @@
+ 
+ config HIMCI_IOBASE
+ 	hex "himci reg base"
+-	default "0x10020000" if ARCH_GODEYES
+-	default "0x601C0000" if ARCH_GODBOX
+-	default "0x10020000" if (ARCH_GODNET || ARCH_GODARM)
+-	default "0x20070000" if ARCH_PHOENIX
+-	default "0x10020000" if ARCH_HI3518
++	default "0x10020000" 
+ 
+ config HIMCI_INTR
+ 	int "himci intr number"
+-	default "70" if ARCH_GODEYES
+-	default "98" if ARCH_GODBOX
+-	default "67" if (ARCH_GODNET || ARCH_GODARM)
+-	default "73" if ARCH_PHOENIX
+-	default "18" if ARCH_HI3518
++	default "18" 
+ 
+ config MMC_CLK
+ 	int "himci mmc clock"
+-	default "24000000" if ARCH_GODEYES
+-	default "24000000" if ARCH_GODBOX
+-	default "50000000" if (ARCH_GODNET || ARCH_GODARM)
+-	default "24000000" if ARCH_PHOENIX
+-	default "50000000" if ARCH_HI3518
++	default "50000000"
+ 
+ config MMC_CCLK_MAX
+ 	int "himci mmc c-clock max"
+-	default "12000000" if ARCH_GODEYES
+-	default "12000000" if ARCH_GODBOX
+-	default "12500000" if (ARCH_GODNET || ARCH_GODARM)
+-	default "12000000" if ARCH_PHOENIX
+-	default "50000000" if ARCH_HI3518
++	default "50000000" 
+ 
+ config MMC_CCLK_MIN
+ 	int "himci mmc c-clock min"
