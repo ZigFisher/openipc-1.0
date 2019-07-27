@@ -23,7 +23,10 @@ sf probe 0
 # Unlock flash
 sf lock 0
 
-
+# just for fresh setup for reinstall kernel and rootfs 
+# erase all partitions behind "env"
+#sf erase 0x90000 0xf70000
+#
 # Download kernel via console to RAM
 loady 0x82000000 
 # in minicom start ymodem upload of openwrt-hisilicon-armv5tej-3.0.8-uImage with CTRL-A Z S
