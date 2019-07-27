@@ -15,10 +15,57 @@ fi
 
 case $build in
 
+   smartfrog)
+    SOC='hi3518cv100'
+    # SOC=${build}
+    echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.8"                  # For SoC’s HI3518C_V100 only with kernel 3.0.y
+    cp target/linux/hisilicon/examples/.config_armv5tej_smartfrog_20190714_wlan  ./.config                    # Copy default config
+    cd target/linux/hisilicon/
+    rm config-3.0.8
+    ln -s config-3.0.8.smartfrog config-3.0.8
+    cd ../../../
+    sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
+    chmod +x feeds/glutinium/hisi-osdrv1/script/*.sh
+    make clean
+    #
+    # Stage I - to start with
+    # builds images and basic packages
+    time CONFIG_DEBUG_SECTION_MISMATCH=y make V=99 -j1  # Clean and compile
+    DATE=$(date +%Y%m%d%H%m)                                 # Set time
+    #tar cvzf ../smartfrog/backup/openwrt-smartfrog-${SOC}-${DATE}.tgz bin/hisilicon/*       # Copy Firmware
+    #cp -r bin/hisilicon/packages/* ../smartfrog/packages/
+    ;;
+
+
+   allsmart)
+    SOC='hi3518cv100'
+    # SOC=${build}
+    echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.8 and all packages"                  # For SoC’s HI3518C_V100 only with kernel 3.0.y
+    cp target/linux/hisilicon/examples/.config_armv5tej_smartfrog_20190725_all  ./.config                    # Copy default config
+    cd target/linux/hisilicon/
+    rm config-3.0.8
+    ln -s config-3.0.8.smartfrog config-3.0.8
+    cd ../../../
+    sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
+    chmod +x feeds/glutinium/hisi-osdrv1/script/*.sh
+    make clean
+    # Stage II
+    # for all packages after image and base packages built successfully
+    time CONFIG_ALL=y IGNORE_ERRORS=y make -j 1V=99                                          # Clean and compile ALL
+    DATE=$(date +%Y%m%d%H%m)                                 # Set time
+    #tar cvzf ../smartfrog/backup/openwrt-smartfrog-all-${SOC}-${DATE}.tgz bin/hisilicon/*       # Copy Firmware
+    #cp -r bin/hisilicon/packages/* ../smartfrog/packages/
+    ;;
+
+
   hi3516cv100|hi3518av100|hi3518cv100|hi3518ev100)
     SOC=${build}
     echo -e "\nStart building OpenWrt firmware for ${SOC} with kernel 3.0.8"                  # For SoC’s HI35_16C_18ACE_V100 only with kernel 3.0.8
     cp target/linux/hisilicon/examples/.config_armv5tej_current  ./.config                    # Copy default config
+    cd target/linux/hisilicon/
+    rm config-3.0.8
+    ln -s config-3.0.8.phy-xm config-3.0.8                                                 # Set kernel-config for default
+    cd ../../../
     sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
     make clean && time make V=99 -j$(($(nproc)+1))                                            # Clean and compile
     #DATE=$(date +%Y%m%d) ; [ -d zft_lab ] || mkdir -p zft_lab                                # Set time and create output dir
@@ -31,6 +78,10 @@ case $build in
     ./scripts/feeds update glutinium                                                          # *** Update glutinium feed
     ./scripts/feeds install -f -p glutinium hisi-osdrv2-base hisi-sample                      # *** Add hisilicon osdrv2 and sample packege from feed
     cp target/linux/hisilicon/examples/.config_armv5tej_current  ./.config                    # Copy default config
+    cd target/linux/hisilicon/
+    rm config-3.0.8
+    ln -s config-3.0.8.phy-xm config-3.0.8                                                 # Set kernel-config for default
+    cd ../../../
     sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.4.35/' target/linux/hisilicon/Makefile   # Set right kernel version - 3.4.35
     make clean && time make V=99 -j1 # -j$(($(nproc)+1))                                      # Clean and compile
     #DATE=$(date +%Y%m%d) ; [ -d zft_lab ] || mkdir -p zft_lab                                # Set time and create output dir
@@ -41,6 +92,10 @@ case $build in
     SOC=${build}
     echo -e "\nStart building OpenWrt firmware for ${SOC} with kernel 3.18.20"                # For SoC’s HI35_16C_V300 only with kernel 3.18.20
     cp target/linux/hisilicon/examples/.config_armv5tej_current  ./.config                    # Copy default config
+    cd target/linux/hisilicon/
+    rm config-3.0.8
+    ln -s config-3.0.8.phy-xm config-3.0.8                                                 # Set kernel-config for default
+    cd ../../../
     sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.18.20/' target/linux/hisilicon/Makefile  # Set right kernel version - 3.18.20
     make clean && time make V=99 -j$(($(nproc)+1))                                            # Clean and compile
     #DATE=$(date +%Y%m%d) ; [ -d zft_lab ] || mkdir -p zft_lab                                # Set time and create output dir
@@ -51,7 +106,10 @@ case $build in
     SOC=${build}
     echo -e "\nStart building OpenWrt firmware for ${SOC} with kernel 3.0.8"                  # For SoC’s HI35_20D_V100 only with kernel 3.0.8
     cp target/linux/hisilicon/examples/.config_armv7_extrasmall  ./.config                    # Copy default config
-    sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
+    cd target/linux/hisilicon/
+    rm config-3.0.8
+    ln -s config-3.0.8.phy-xm config-3.0.8                                                 # Set kernel-config for default
+    cd ../../../sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
     make clean && time make V=99 -j$(($(nproc)+1))                                            # Clean and compile
     #DATE=$(date +%Y%m%d) ; [ -d zft_lab ] || mkdir -p zft_lab                                # Set time and create output dir
     #cp -v bin/hisilicon/uImage-OpenWrt-HI35xx zft_lab/uImage-OpenWrt-${SOC}-${DATE}.bin      # Copy Firmware
@@ -117,6 +175,15 @@ case $build in
     ./scripts/feeds update glutinium
     make -j1 V=s package/feeds/glutinium/minihttp/{clean,compile,install}
     #scp root@172.28.200.80:/usr/bin/minihttp_test
+    ;;
+
+    osdrv1)
+    # For test
+    ./scripts/feeds update glutinium
+    ./scripts/feeds install -f -p glutinium hisi-osdrv1-base hisi-sample
+    make package/feeds/glutinium/hisi-osdrv1/clean  &&  make -j1 V=s package/feeds/glutinium/hisi-osdrv1/compile  &&  make -j1 V=s package/feeds/glutinium/hisi-osdrv1/install
+    make package/feeds/glutinium/hisi-sample/clean  &&  make -j1 V=s package/feeds/glutinium/hisi-sample/compile  &&  make -j1 V=s package/feeds/glutinium/hisi-sample/install
+    #scp ./bin/hisilicon/packages/glutinium/*.ipk zig@172.28.200.74:~
     ;;
 
   osdrv2)

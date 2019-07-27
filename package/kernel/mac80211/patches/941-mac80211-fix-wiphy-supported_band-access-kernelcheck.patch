@@ -1,0 +1,14 @@
+--- a/net/wireless/util.c  2019-07-21 02:18:00.303302041 +0200
++++ b/net/wireless/util.c  2019-07-21 02:19:39.748557471 +0200
+@@ -746,7 +746,11 @@
+        u8 *payload;
+        int offset = 0, remaining, err;
+        struct ethhdr eth;
++#if LINUX_VERSION_CODE < KERNEL_VERSION(3,5,0)
++       bool reuse_frag = 0;
++#else
+        bool reuse_frag = skb->head_frag && !skb_has_frag_list(skb);
++#endif
+        bool reuse_skb = false;
+        bool last = false;
+
