@@ -50,6 +50,9 @@ case $build in
     chmod +x feeds/glutinium/hisi-osdrv1/script/*.sh
     make clean
     # Stage II
+    # deactivate unneeded
+    sed --in-place=.bak -e 's/=m$/=n/g' -e 's/^CONFIG_SDK=y$/CONFIG_SDK=n/' .config
+    make prereq
     # for all packages after image and base packages built successfully
     time CONFIG_ALL=y IGNORE_ERRORS=y make -j 1V=99                                          # Clean and compile ALL
     DATE=$(date +%Y%m%d%H%m)                                 # Set time
