@@ -29,6 +29,7 @@ case $build in
     make clean
     #
     # Stage I - to start with
+    make prereq
     # builds images and basic packages
     time CONFIG_DEBUG_SECTION_MISMATCH=y make V=99 -j1  # Clean and compile
     DATE=$(date +%Y%m%d%H%m)                                 # Set time
