@@ -1,0 +1,11 @@
+--- a/drivers/mtd/devices/hisfc350/hisfc350.c	2019-07-28 23:08:02.042779071 +0200
++++ b/drivers/mtd/devices/hisfc350/hisfc350.c	2019-07-28 23:09:07.799604393 +0200
+@@ -1171,7 +1171,7 @@
+ }
+ #endif
+ 
+-static struct platform_driver hisfc350_driver_pltdrv = {
++static struct platform_driver __refdata hisfc350_driver_pltdrv = {
+ 	.probe		= hisfc350_driver_probe,
+ 	.remove		= hisfc350_driver_remove,
+ 	.shutdown	= hisfc350_driver_shutdown,
