@@ -1,5 +1,7 @@
 hi3518 smartfrog mtd parts old/new
 
+do not use minicom in screen-Session - you'll need CTRL-Z for minicom commands ;)
+
 Before flashing anything to nvram, test everything from loading images into RAM first.
 check current mtd partitions and content from stock firmware from console bootlog
 
