@@ -1,0 +1,75 @@
+diff -Naur a/drivers/mmc/host/himciv100/himci.c b/drivers/mmc/host/himciv100/himci.c
+--- a/drivers/mmc/host/himciv100/himci.c	2019-07-29 18:37:41.981588182 +0200
++++ b/drivers/mmc/host/himciv100/himci.c	2019-07-20 00:01:32.472912369 +0200
+@@ -92,6 +92,9 @@
+ 	local_irq_save(flags);
+ 
+ 	hi_mci_ctr_reset();
++	udelay(50);
++
++	hi_mci_ctr_undo_reset();
+ 
+ 	reg_value = himci_readl(host->base + MCI_BMOD);
+ 	reg_value |= BMOD_SWR;
+@@ -109,17 +112,6 @@
+ 	local_irq_restore(flags);
+ }
+ 
+-static void hi_mci_sys_undo_reset(struct himci_host *host)
+-{
+-	unsigned long flags;
+-
+-	himci_trace(2, "undo reset");
+-
+-	local_irq_save(flags);
+-	hi_mci_ctr_undo_reset();
+-	local_irq_restore(flags);
+-}
+-
+ static void hi_mci_ctrl_power(struct himci_host *host, unsigned int flag)
+ {
+ 	himci_trace(2, "begin");
+@@ -264,8 +256,6 @@
+ 	hi_mci_ctrl_power(host, POWER_ON);
+ 	udelay(200);
+ 
+-	hi_mci_sys_undo_reset(host);
+-
+ 	/* clear MMC host intr */
+ 	himci_writel(ALL_INT_CLR, host->base + MCI_RINTSTS);
+ 
+diff -Naur a/drivers/mmc/host/himciv100/Kconfig b/drivers/mmc/host/himciv100/Kconfig
+--- a/drivers/mmc/host/himciv100/Kconfig	2019-07-29 18:37:45.653631684 +0200
++++ b/drivers/mmc/host/himciv100/Kconfig	2019-07-30 11:03:23.372100285 +0200
+@@ -4,7 +4,7 @@
+ 
+ menuconfig HIMCIV100
+ 	tristate "himciv100 sd/mmc device support"
+-	default y 
++	default y
+ 	select MMC_UNSAFE_RESUME
+ 	select MMC_EMBEDDED_SDIO
+ 	select MMC_BLOCK
+@@ -20,11 +20,11 @@
+ 
+ config HIMCI_IOBASE
+ 	hex "himci reg base"
+-	default "0x10020000" 
++	default "0x10020000"
+ 
+ config HIMCI_INTR
+ 	int "himci intr number"
+-	default "18" 
++	default "18"
+ 
+ config MMC_CLK
+ 	int "himci mmc clock"
+@@ -32,7 +32,7 @@
+ 
+ config MMC_CCLK_MAX
+ 	int "himci mmc c-clock max"
+-	default "50000000" 
++	default "50000000"
+ 
+ config MMC_CCLK_MIN
+ 	int "himci mmc c-clock min"
