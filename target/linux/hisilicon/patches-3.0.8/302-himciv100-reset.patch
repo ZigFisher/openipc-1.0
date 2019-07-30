@@ -1,0 +1,38 @@
+--- a/drivers/mmc/host/himciv100/himci.c	2019-07-30 11:17:43.727308083 +0200
++++ b/drivers/mmc/host/himciv100/himci.c	2019-07-30 11:22:11.154750369 +0200
+@@ -92,6 +92,9 @@
+ 	local_irq_save(flags);
+ 
+ 	hi_mci_ctr_reset();
++	udelay(50);
++
++	hi_mci_ctr_undo_reset();
+ 
+ 	reg_value = himci_readl(host->base + MCI_BMOD);
+ 	reg_value |= BMOD_SWR;
+@@ -109,17 +112,6 @@
+ 	local_irq_restore(flags);
+ }
+ 
+-static void hi_mci_sys_undo_reset(struct himci_host *host)
+-{
+-	unsigned long flags;
+-
+-	himci_trace(2, "undo reset");
+-
+-	local_irq_save(flags);
+-	hi_mci_ctr_undo_reset();
+-	local_irq_restore(flags);
+-}
+-
+ static void hi_mci_ctrl_power(struct himci_host *host, unsigned int flag)
+ {
+ 	himci_trace(2, "begin");
+@@ -264,7 +256,6 @@
+ 	hi_mci_ctrl_power(host, POWER_ON);
+ 	udelay(200);
+ 
+-	hi_mci_sys_undo_reset(host);
+ 
+ 	/* clear MMC host intr */
+ 	himci_writel(ALL_INT_CLR, host->base + MCI_RINTSTS);
