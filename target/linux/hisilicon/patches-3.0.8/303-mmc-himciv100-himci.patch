@@ -1,0 +1,32 @@
+--- a/drivers/mmc/host/himciv100/himci.c	2019-07-31 09:49:52.314121005 +0200
++++ b/drivers/mmc/host/himciv100/himci.c	2019-07-31 09:50:39.138709429 +0200
+@@ -34,29 +34,7 @@
+ #include "hi_mci_reg.h"
+ #include "hi_mci.h"
+ 
+-#ifdef CONFIG_ARCH_GODBOX
+-#include "himci_godbox.c"
+-#endif
+-
+-#ifdef CONFIG_ARCH_GODEYES
+-#include "himci_godeyes.c"
+-#endif
+-
+-#ifdef CONFIG_ARCH_GODNET
+-#include "himci_godnet.c"
+-#endif
+-
+-#ifdef CONFIG_ARCH_GODARM
+-#include "himci_godarm.c"
+-#endif
+-
+-#ifdef CONFIG_ARCH_PHOENIX
+-#include "himci_phoenix.c"
+-#endif
+-
+-#ifdef CONFIG_ARCH_HI3518
+ #include "himci_3518.c"
+-#endif
+ 
+ #define DRIVER_NAME "hi_mci"
+ 
