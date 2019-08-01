@@ -94,7 +94,7 @@ case $build in
     ln -s config-3.0.8.phy-xm config-3.0.8                                                 # Set kernel-config for default
     cd ../../../
     sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.4.35/' target/linux/hisilicon/Makefile   # Set right kernel version - 3.4.35
-    make clean && time make V=99 -j1 # -j$(($(nproc)+1))                                      # Clean and compile
+    make clean && time make -j$X V=99                                      # Clean and compile
     #DATE=$(date +%Y%m%d) ; [ -d zft_lab ] || mkdir -p zft_lab                                # Set time and create output dir
     #cp -v bin/hisilicon/uImage-OpenWrt-HI35xx zft_lab/uImage-OpenWrt-${SOC}-${DATE}.bin      # Copy Firmware
     ;;
@@ -108,7 +108,7 @@ case $build in
     ln -s config-3.0.8.phy-xm config-3.0.8                                                 # Set kernel-config for default
     cd ../../../
     sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.18.20/' target/linux/hisilicon/Makefile  # Set right kernel version - 3.18.20
-    make clean && time make V=99 -j$(($(nproc)+1))                                            # Clean and compile
+    make clean && time make -j$X V=99                                             # Clean and compile
     #DATE=$(date +%Y%m%d) ; [ -d zft_lab ] || mkdir -p zft_lab                                # Set time and create output dir
     #cp -v bin/hisilicon/uImage-OpenWrt-HI35xx zft_lab/uImage-OpenWrt-${SOC}-${DATE}.bin      # Copy Firmware
     ;;
@@ -121,14 +121,14 @@ case $build in
     rm config-3.0.8
     ln -s config-3.0.8.phy-xm config-3.0.8                                                 # Set kernel-config for default
     cd ../../../sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
-    make clean && time make V=99 -j$(($(nproc)+1))                                            # Clean and compile
+    make clean && time make -j$X V=99                                             # Clean and compile
     #DATE=$(date +%Y%m%d) ; [ -d zft_lab ] || mkdir -p zft_lab                                # Set time and create output dir
     #cp -v bin/hisilicon/uImage-OpenWrt-HI35xx zft_lab/uImage-OpenWrt-${SOC}-${DATE}.bin      # Copy Firmware
     ;;
 
   release)
     # Rebuild kernel, rootfs, firmware
-    make V=99 -j$(($(nproc)+1)) target/install
+    make -j$X V=99  target/install
     ;;
 
   update)
@@ -184,7 +184,7 @@ case $build in
   minihttp)
     # For test
     ./scripts/feeds update glutinium
-    make -j1 V=s package/feeds/glutinium/minihttp/{clean,compile,install}
+    make -j$X V=s package/feeds/glutinium/minihttp/{clean,compile,install}
     #scp root@172.28.200.80:/usr/bin/minihttp_test
     ;;
 
