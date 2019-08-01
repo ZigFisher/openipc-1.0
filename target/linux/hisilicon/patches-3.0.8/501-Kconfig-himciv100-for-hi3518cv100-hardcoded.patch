@@ -37,7 +37,7 @@
 -	default "50000000" if (ARCH_GODNET || ARCH_GODARM)
 -	default "24000000" if ARCH_PHOENIX
 -	default "50000000" if ARCH_HI3518
-+	default "50000000"
++	default "25000000"
  
  config MMC_CCLK_MAX
  	int "himci mmc c-clock max"
