@@ -3,6 +3,13 @@
 # More information on the site - http://openipc.org
 #
 
+#
+# for debugging
+# X=1
+#
+# no debugging
+X=$(expr $(nproc) + 1)
+#
 
 set -e # exit immediately if a command exits with a non-zero status.
 
@@ -31,7 +38,7 @@ case $build in
     # Stage I - to start with
     make prereq
     # builds images and basic packages
-    time CONFIG_DEBUG_SECTION_MISMATCH=y make V=99 -j1  # Clean and compile
+    time CONFIG_DEBUG_SECTION_MISMATCH=y make -j$X V=99   # Clean and compile
     DATE=$(date +%Y%m%d%H%m)                                 # Set time
     #tar cvzf ../smartfrog/backup/openwrt-smartfrog-${SOC}-${DATE}.tgz bin/hisilicon/*       # Copy Firmware
     #cp -r bin/hisilicon/packages/* ../smartfrog/packages/
@@ -55,7 +62,7 @@ case $build in
     sed --in-place=.bak -e 's/=m$/=n/g' -e 's/^CONFIG_SDK=y$/CONFIG_SDK=n/' .config
     make prereq
     # for all packages after image and base packages built successfully
-    time CONFIG_ALL=y IGNORE_ERRORS=y make -j 1V=99                                          # Clean and compile ALL
+    time CONFIG_ALL=y IGNORE_ERRORS=y make -j$X V=99                                          # Clean and compile ALL
     DATE=$(date +%Y%m%d%H%m)                                 # Set time
     #tar cvzf ../smartfrog/backup/openwrt-smartfrog-all-${SOC}-${DATE}.tgz bin/hisilicon/*       # Copy Firmware
     #cp -r bin/hisilicon/packages/* ../smartfrog/packages/
