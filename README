@@ -9,3 +9,5 @@ sudo apt-get install git-core build-essential libssl-dev libncurses5-dev unzip g
 for smartfrog cam start with ./build_smartfrog.sh
 
 CAUTION: Test every uImage first by booting from RAM before changing nvram/mtd on device.
+
+Known_Bugs: mmc device not properly initializing
