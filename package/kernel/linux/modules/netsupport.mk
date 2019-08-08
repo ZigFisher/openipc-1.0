@@ -583,6 +583,10 @@ ifeq ($(KERNEL_PATCHVER),3.0.8)
   FILES:=$(LINUX_DIR)/drivers/net/slhc.ko
 endif
   #
+ifeq ($(KERNEL_PATCHVER),3.0.y)
+  FILES:=$(LINUX_DIR)/drivers/net/slhc.ko
+endif
+  #
 endef
 
 $(eval $(call KernelPackage,slhc))
