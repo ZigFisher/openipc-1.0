@@ -20,8 +20,9 @@ include $(INCLUDE_DIR)/target.mk
 
 DEFAULT_PACKAGES := $(filter-out ppp%,$(DEFAULT_PACKAGES)) \
 		kmod-usb-core kmod-usb2 kmod-usb-ohci \
-		kmod-usb-storage kmod-fs-vfat kmod-nls-utf8 \
-		kmod-ledtrig-usbdev kmod-tun
+                kmod-usb-storage kmod-fs-vfat kmod-nls-utf8 \
+                kmod-ledtrig-usbdev \
+                r8188eu-firmware kmod-cfg80211 kmod-mac80211 kmod-net-rtl8188eu
 
 KERNELNAME:=zImage
 
