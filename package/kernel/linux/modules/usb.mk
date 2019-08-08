@@ -25,6 +25,11 @@ ifeq ($(KERNEL_PATCHVER),3.0.8)
 	$(LINUX_DIR)/drivers/usb/core/usbcore.ko
 endif
   #
+ifeq ($(KERNEL_PATCHVER),3.0.y)
+  FILES:= \
+	$(LINUX_DIR)/drivers/usb/core/usbcore.ko
+endif
+  #
 ifeq ($(KERNEL_PATCHVER),3.4.35)
   FILES:= \
 	$(LINUX_DIR)/drivers/usb/core/usbcore.ko
