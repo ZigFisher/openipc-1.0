@@ -1,0 +1,11 @@
+--- linux-3.0.y/scripts/Makefile.lib.orig	2011-10-25 09:11:12.000000000 +0400
++++ linux-3.0.y/scripts/Makefile.lib	2018-02-15 18:05:49.995108832 +0300
+@@ -254,7 +254,7 @@
+ 
+ quiet_cmd_lzma = LZMA    $@
+ cmd_lzma = (cat $(filter-out FORCE,$^) | \
+-	lzma -9 && $(call size_append, $(filter-out FORCE,$^))) > $@ || \
++	lzma e -d20 -lc1 -lp2 -pb2 -eos -si -so && $(call size_append, $(filter-out FORCE,$^))) > $@ || \
+ 	(rm -f $@ ; false)
+ 
+ quiet_cmd_lzo = LZO     $@
