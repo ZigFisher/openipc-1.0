@@ -4,4 +4,4 @@ if [ ! -d feeds ]; then
 ./scripts/feeds install -a
 fi
 
-./Project_OpenIPC.sh smartfrog 
+nice ./Project_OpenIPC.sh smartfrog 
