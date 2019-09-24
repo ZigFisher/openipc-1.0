@@ -5,10 +5,10 @@
 
 #
 # for debugging
-# X=1
+X=1
 #
 # no debugging
-X=$(expr $(nproc) + 1)
+# X=$(expr $(nproc) + 1)
 #
 
 set -e # exit immediately if a command exits with a non-zero status.
@@ -25,13 +25,13 @@ case $build in
    smartfrog)
     SOC='hi3518cv100'
     # SOC=${build}
-    echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.y"                  # For SoC’s HI3518C_V100 only with kernel 3.0.y
+    echo -e "\nStart building OpenWrt firmware for smartfrog ${SOC} with kernel 3.0.8"                  # For SoC’s HI3518C_V100 only with kernel 3.0.y
     cp target/linux/hisilicon/examples/.config_armv5tej_smartfrog_20190714_wlan  ./.config                    # Copy default config
     cd target/linux/hisilicon/
-    rm config-3.0.y
-    ln -s config-3.0.y.smartfrog config-3.0.y
+    rm config-3.0.8
+    ln -s config-3.0.8.smartfrog config-3.0.8
     cd ../../../
-    sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.y/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.y
+    sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=3.0.8/' target/linux/hisilicon/Makefile    # Set right kernel version - 3.0.8
     chmod +x feeds/glutinium/hisi-osdrv1/script/*.sh
     make clean
     #
