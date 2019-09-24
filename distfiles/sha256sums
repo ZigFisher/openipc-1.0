@@ -1,0 +1,4 @@
+SHA256(openwrt-hisilicon-armv5tej-3.0.8-initramfs-uImage)= f6170be976ed5b4e97aeaf6e627d1aea3db5b26a5b43f4a6ac72a90a5bdd0848
+SHA256(openwrt-hisilicon-armv5tej-3.0.8-root.squashfs)= c6cf8342f585288951f301c9838b5937f21232f90266c15a6b8404999f4036f1
+SHA256(openwrt-hisilicon-armv5tej-3.0.8-uImage)= 0bd59e337ed0b292eb0ec1fd6fe3972305bb1bc21440c526871f006cf8f40112
+SHA256(sha256sums)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

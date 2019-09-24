@@ -1,0 +1,275 @@
+Package: bwm-ng
+Version: 0.6-1
+Depends: libc
+Source: feeds/packages/net/bwm-ng
+License: GPL2-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
+Architecture: hisilicon
+Installed-Size: 10803
+Filename: bwm-ng_0.6-1_hisilicon.ipk
+Size: 11589
+MD5Sum: be3d8393a42712438046cfe0a677170c
+SHA256sum: 9e802eb6658965083d3bb751232a458d471f86a40995e24722c9ac1a0617d47f
+Description:  Bandwidth Monitor NG is a small and simple console-based live
+ network and disk io bandwidth monitor.
+
+Package: ethtool
+Version: 3.18-1
+Depends: libc
+Source: feeds/packages/net/ethtool
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: hisilicon
+Installed-Size: 83280
+Filename: ethtool_3.18-1_hisilicon.ipk
+Size: 83939
+MD5Sum: 57fc5a093bd4253e9f14330c31638628
+SHA256sum: ab7d2ec536782610c7b3c267c80d815e1c8e6b08f5a4394f475c64415e6b573e
+Description:  ethtool is a small utility for examining and tuning your ethernet-based
+ network interface
+
+Package: haserl
+Version: 0.9.35-1
+Depends: libc
+Source: feeds/packages/utils/haserl
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: hisilicon
+Installed-Size: 9676
+Filename: haserl_0.9.35-1_hisilicon.ipk
+Size: 10427
+MD5Sum: 2484d96dc57d95d17d57fdbcef566c06
+SHA256sum: 2a99d510a8eee25df87edc48dd47ca769089a07685b07305ffa85e99405d9508
+Description:  A CGI wrapper to embed shell scripts in HTML documents
+
+Package: lame-lib
+Version: 3.99.5-1
+Depends: libc
+Source: feeds/packages/sound/lame
+License: LGPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: sound
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: hisilicon
+Installed-Size: 122358
+Filename: lame-lib_3.99.5-1_hisilicon.ipk
+Size: 122931
+MD5Sum: 29d92d3fa4df2e9a7ce4b5c4079c9ff8
+SHA256sum: c86ebb2ca4ffc80a75244a4bfa1770d07d4818dd5211ee1ffd9bc06259f59bc7
+Description:  lame mp3 encoder libs
+
+Package: libcares
+Version: 1.10.0-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+License: MIT
+Section: libs
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: hisilicon
+Installed-Size: 25065
+Filename: libcares_1.10.0-1_hisilicon.ipk
+Size: 25889
+MD5Sum: 631334375d67044c219cffc88ea0abfe
+SHA256sum: 8eb4b7e535ccdfc2d6fe4830168f32669fcf1f7463d566779859574953b17ddc
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libfko
+Version: 2.6.6-4
+Depends: libc
+Source: feeds/packages/net/fwknop
+License: GPLv2
+Section: libs
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: hisilicon
+Installed-Size: 27663
+Filename: libfko_2.6.6-4_hisilicon.ipk
+Size: 28695
+MD5Sum: b4e604a360fb4a319a228bcaa0b5ca27
+SHA256sum: f1a4f8d2f3d59009be0dc3191c61acf372d3544c255191499c9fb0da3ae212e3
+Description:  Fwknop implements an authorization scheme known as Single Packet Authorization
+ (SPA) for Linux systems running iptables.  This mechanism requires only a
+ single encrypted and non-replayed packet to communicate various pieces of
+ information including desired access through an iptables policy. The main
+ application of this program is to use iptables in a default-drop stance to
+ protect services such as SSH with an additional layer of security in order to
+ make the exploitation of vulnerabilities (both 0-day and unpatched code) much
+ more difficult.
+ This package contains the libfko shared library.
+
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: hisilicon
+Installed-Size: 269546
+Filename: libgcrypt_1.6.1-1_hisilicon.ipk
+Size: 269349
+MD5Sum: 77f950b7a805fd84a991fd0d29ff9e77
+SHA256sum: 087281e82d9fea2977a0d66b1b408db36f3374e71f87091d93034d0b940bddcd
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgnutls
+Version: 3.4.15-1
+Depends: libc, libnettle, libgmp
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: hisilicon
+Installed-Size: 350754
+Filename: libgnutls_3.4.15-1_hisilicon.ipk
+Size: 349789
+MD5Sum: e50d9ca1fddfbbb1daac09234f957df5
+SHA256sum: 43cf1788634f0549633c4739ee1ae9abec477aa3264193079319a6ccbce33326
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: hisilicon
+Installed-Size: 5243
+Filename: libgpg-error_1.12-1_hisilicon.ipk
+Size: 6073
+MD5Sum: bddbf70204c252dc9e88433677d51724
+SHA256sum: dbdda8616e533dd371a0032738cae8ef9937873627406d5b4424aa589b5ef60e
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: hisilicon
+Installed-Size: 94263
+Filename: libjpeg_9a-1_hisilicon.ipk
+Size: 94881
+MD5Sum: 0d5cd0d2b80a93a05cdc12805f5b2468
+SHA256sum: 3d6a31734ca187642a64bd87096c7d32a0fdc83cf3743462d18a1cdc1e49481d
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libmosquitto-nossl
+Version: 1.4.10-1
+Depends: libc, libpthread, librt, libcares
+Source: feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: libs
+Require-User: mosquitto=200:mosquitto=200
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: hisilicon
+Installed-Size: 16515
+Filename: libmosquitto-nossl_1.4.10-1_hisilicon.ipk
+Size: 17461
+MD5Sum: 59e58bbd7e1bc970f33815852c3a75fd
+SHA256sum: 86a173a38844d66a42d9f2266dc08d2adea7584ee440de096da58bf16fb0bdd0
+Description:  Library required for mosquitto's command line client tools, also for
+ use by any third party software that wants to communicate with a
+ mosquitto server.
+ 
+ Should be useable for communicating with any MQTT v3.1/3.1.1 compatible
+ server, such as IBM's RSMB, in addition to Mosquitto
+ This package is built without SSL support
+
+Package: mjpg-streamer
+Version: r182-7
+Depends: libc, libpthread, libjpeg
+Source: feeds/packages/multimedia/mjpg-streamer
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: hisilicon
+Installed-Size: 184379
+Filename: mjpg-streamer_r182-7_hisilicon.ipk
+Size: 185292
+MD5Sum: 4bd84102693d413c57e36f406f5da80a
+SHA256sum: 03196cdc19f563d9458186f1e686d9de22146c898c479de1c13f45e1e43ceed8
+Description:  Streaming application for Linux-UVC compatible webcams
+
+Package: mosquitto-client-nossl
+Version: 1.4.10-1
+Depends: libc, librt, libuuid, libcares, libmosquitto-nossl
+Source: feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: net
+Require-User: mosquitto=200:mosquitto=200
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: hisilicon
+Installed-Size: 13576
+Filename: mosquitto-client-nossl_1.4.10-1_hisilicon.ipk
+Size: 14303
+MD5Sum: 4d86dc9111955834f52365db06aa2b94
+SHA256sum: 5bd969a11f56153ca541b84d58b7f13e2aa8130b8de0b26cc897bfef8e7c06e9
+Description:  Command line client tools for publishing messages to MQTT servers
+ and subscribing to topics.
+ This package is built without SSL support
+
+Package: motion
+Version: 3.4.0-20141018-9479d910f2149b5558788bb86f97f26522794212-1
+Depends: libc, libjpeg, libpthread
+Source: feeds/packages/multimedia/motion
+License: GPLv2
+LicenseFiles: COPYING
+Section: multimedia
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: hisilicon
+Installed-Size: 95239
+Filename: motion_3.4.0-20141018-9479d910f2149b5558788bb86f97f26522794212-1_hisilicon.ipk
+Size: 95896
+MD5Sum: 4757ba3e370133eb254d61375e097fda
+SHA256sum: a2245152c8dae677c10cb17aeb27ec2d05183b429eafd1a899c75e459002225c
+Description:  webcam motion sensing and logging
+
+Package: ser2net
+Version: 2.10.0-2
+Depends: libc
+Source: feeds/packages/net/ser2net
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: hisilicon
+Installed-Size: 27874
+Filename: ser2net_2.10.0-2_hisilicon.ipk
+Size: 28604
+MD5Sum: f9ab24f125f28b0785067c9f9f87a222
+SHA256sum: 5a9289efa012199a1f6d73e44949c39ef53d7c14e8cc0904cd69c4c8d5a10a4d
+Description:  This project provides a proxy that allows telnet/tcp connections to be made to
+ serial ports on a machine.
+
