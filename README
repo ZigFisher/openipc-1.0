@@ -12,3 +12,5 @@ CAUTION: Test every uImage first by booting from RAM before changing nvram/mtd o
 
 Known_Bugs: mmc device not properly initializing with kernel 3.0.8
             Kernel 3.0.y image still crashes 
+            
+changes: 20190924 modified openwrt tools to build kernel 3.0.8 images on pine a64 arm64 kernel 5.3
