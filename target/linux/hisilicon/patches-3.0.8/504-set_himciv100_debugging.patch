@@ -1,0 +1,11 @@
+--- a/drivers/mmc/host/himciv100/hi_mci.h	2019-09-26 22:16:42.986257151 +0200
++++ b/drivers/mmc/host/himciv100/hi_mci.h	2019-09-26 22:18:21.929361908 +0200
+@@ -2,7 +2,7 @@
+ #define _HI_MCI_H_
+ 
+ extern int trace_level;
+-#define HIMCI_TRACE_LEVEL  5
++#define HIMCI_TRACE_LEVEL  0
+ /*
+    0 - all message
+    1 - dump all register read/write
