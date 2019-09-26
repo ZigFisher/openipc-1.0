@@ -1,0 +1,37 @@
+--- a/drivers/mmc/host/omap_hsmmc.c	2019-09-26 16:38:09.450844491 +0200
++++ b//drivers/mmc/host/omap_hsmmc.c	2019-09-26 16:40:22.493754923 +0200
+@@ -1413,33 +1413,9 @@
+ 			     unsigned int timeout_ns,
+ 			     unsigned int timeout_clks)
+ {
+-	unsigned int timeout, cycle_ns;
+-	uint32_t reg, clkd, dto = 0;
++	uint32_t reg, dto = 14;
+ 
+ 	reg = OMAP_HSMMC_READ(host->base, SYSCTL);
+-	clkd = (reg & CLKD_MASK) >> CLKD_SHIFT;
+-	if (clkd == 0)
+-		clkd = 1;
+-
+-	cycle_ns = 1000000000 / (clk_get_rate(host->fclk) / clkd);
+-	timeout = timeout_ns / cycle_ns;
+-	timeout += timeout_clks;
+-	if (timeout) {
+-		while ((timeout & 0x80000000) == 0) {
+-			dto += 1;
+-			timeout <<= 1;
+-		}
+-		dto = 31 - dto;
+-		timeout <<= 1;
+-		if (timeout && dto)
+-			dto += 1;
+-		if (dto >= 13)
+-			dto -= 13;
+-		else
+-			dto = 0;
+-		if (dto > 14)
+-			dto = 14;
+-	}
+ 
+ 	reg &= ~DTO_MASK;
+ 	reg |= dto << DTO_SHIFT;
