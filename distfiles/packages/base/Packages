@@ -6,9 +6,9 @@ Section: firmware
 Architecture: hisilicon
 Installed-Size: 45248
 Filename: b43legacy-firmware_3.130.20.0-1_hisilicon.ipk
-Size: 45602
-MD5Sum: 13e4e9e32de16f91bec0368a204e8be1
-SHA256sum: 9ab6901293b5cbc9042af0f53a4cf37763a45028fe8c589ac64ef4e01f48f912
+Size: 45561
+MD5Sum: 9ead1d0a22e97cda4181167b1ce40989
+SHA256sum: 75d69312f62a1258b003f8f6011b9abe3bbea45a8f3277b719da354214c7ff8b
 Description:  Broadcom bcm43xx b43legacy firmware
 
 Package: base-files
@@ -18,11 +18,11 @@ Source: package/base-files
 License: GPL-2.0
 Section: base
 Architecture: hisilicon
-Installed-Size: 32801
+Installed-Size: 32799
 Filename: base-files_157.2-unknown_hisilicon.ipk
-Size: 33713
-MD5Sum: 4b61b02dfaa59b03a47c0bc0f458a5d3
-SHA256sum: 368e45ea2abf8c9cf272ed80dc837cb234662d7b63d8fe0b9066778904ed1133
+Size: 33710
+MD5Sum: ee829fceb23f9e1fed32e3f3a0f20066
+SHA256sum: c627850b97546cdb7a25fbb1be4648063f81c8e47fb955cc8d905a94966a527c
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: brcmfmac-firmware-usb
@@ -32,11 +32,11 @@ Source: package/firmware/linux-firmware
 Section: firmware
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 502997
+Installed-Size: 502996
 Filename: brcmfmac-firmware-usb_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_hisilicon.ipk
-Size: 503679
-MD5Sum: ad8f12589bcdb0024dcb05951361dfdc
-SHA256sum: 7b60580e0418942b581d378f1ee4a86fd78cf91be6a048a548a3f4eed8ca8204
+Size: 503684
+MD5Sum: 2df34a52772ffeb9a6257596c0079f56
+SHA256sum: ea5062fb639adee74808a34c6a697d81b02e99ef8e59e85ac4bc03e2b6e8b728
 Description:  Broadcom BCM43xx fullmac USB firmware
 
 Package: busybox
@@ -49,11 +49,11 @@ Section: base
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 269903
+Installed-Size: 269906
 Filename: busybox_1.23.2-1_hisilicon.ipk
-Size: 270095
-MD5Sum: 5b2bc3be5878e68743553297644cdf75
-SHA256sum: 6ee4a403ec61ac10d783dc42d8f167e14de6fa9a9ed93dc0afe212b02626ce87
+Size: 270154
+MD5Sum: c8c10b4c01cdef9439026c120050b752
+SHA256sum: 4b92f405eb53599ebe107211259b24e9a8a6c519376761454cf703a4613e2d17
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -64,11 +64,11 @@ Source: package/system/ca-certificates
 Section: base
 Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
-Installed-Size: 169766
+Installed-Size: 169786
 Filename: ca-certificates_20161130+nmu1_all.ipk
-Size: 170596
-MD5Sum: 929bd90be5a680d966a0f820dbc24280
-SHA256sum: 9abcf0d712c67ce5a56f0d6a8a955fd88dd6729600c77fd3ef950a3afc668f3d
+Size: 170619
+MD5Sum: a4faab75be0c43ed07641ba176b008a3
+SHA256sum: abac9e768a5da204e87329b8142bcc68d0111eae57408748b84a10579cce5aec
 Description:  System CA certificates
 
 Package: chat
@@ -81,9 +81,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 8397
 Filename: chat_2.4.7-6_hisilicon.ipk
-Size: 9210
-MD5Sum: a87ce22aa0fef5f81b1f94a3408c0699
-SHA256sum: fe533716a8a9591b114d0c90d059c81000f0123cf7a7e2c296424ba10ad42344
+Size: 9215
+MD5Sum: 3bbff08adaf026e89d9148d1e0201ffc
+SHA256sum: 8ef566b1902c054e2e0f08f394eb440aa78de5d3e3e54614c685d0725ec0bde3
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
 
@@ -95,11 +95,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 19581
+Installed-Size: 19579
 Filename: comgt_0.32-25_hisilicon.ipk
-Size: 20435
-MD5Sum: 5aa37bedb44c307621788713aa3ecaac
-SHA256sum: ea3b6db7714f81711ab51364950bd63dec7f0991cab77c9a15608e99aac7c70f
+Size: 20412
+MD5Sum: bb962e51c94135eae3cd33201ee55670
+SHA256sum: 24ef889898a5e1d828e4b753a0e042f049dad4c94e154d7cac4f929d1d926f57
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -115,9 +115,9 @@ Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 36157
 Filename: curl_7.40.0-3.2_hisilicon.ipk
-Size: 36928
-MD5Sum: 4e12a3950b5584a94fc8eebfcbdc7d25
-SHA256sum: a0e0fa6d49cc18a9d2367f9f8e01783629a19a75c25712b834f21dfc1e08dd90
+Size: 36856
+MD5Sum: cef63732c2fbdc1544261b59da4e254f
+SHA256sum: 768e151344b2c25871647e47afc7f6d0b2f61592f474aafb6af42a576960c0a7
 Description:  A client-side URL transfer utility
 
 Package: dropbear
@@ -128,11 +128,11 @@ License: MIT
 LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
 Section: net
 Architecture: hisilicon
-Installed-Size: 80772
+Installed-Size: 80770
 Filename: dropbear_2017.75-1_hisilicon.ipk
-Size: 81487
-MD5Sum: e292c9a7e509da0653b3d6ef577d9f42
-SHA256sum: 8e4de3508d084396230cf52593106a8c3e2b375d756932a8a445d0c5e4528441
+Size: 81439
+MD5Sum: 168b2add84c5cdf803fd04cefe7e2123
+SHA256sum: 0f0366fd4c2d3472202dcffdca25a2885e08c79f853ece7da5f6cece003708fc
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: fstools
@@ -143,11 +143,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 16004
+Installed-Size: 15998
 Filename: fstools_2016-01-10-96415afecef35766332067f4205ef3b2c7561d21_hisilicon.ipk
-Size: 16728
-MD5Sum: 32ad4690ee3545963e8506950a449a11
-SHA256sum: d0a68cd038c0cc7509be68874fe41320e6ba37822185940bf70fc3a7d0bc4810
+Size: 16730
+MD5Sum: f27f4725d878a519a173c4b6ee5c564c
+SHA256sum: 6813dc773c038fcec8f2be05e4f96095ff36412263121147eb44f8972d4aa722
 Description:  OpenWrt filesystem tools
 
 Package: hostapd-common
@@ -161,8 +161,8 @@ Architecture: hisilicon
 Installed-Size: 5044
 Filename: hostapd-common_2016-06-15-2_hisilicon.ipk
 Size: 5749
-MD5Sum: 431f5f2cc64189ca4ba772c488c16bbb
-SHA256sum: 27a9c3032cb3a029565c84429f91c6b1515f1d02048b0c979755fb4240bdec1f
+MD5Sum: 2026e41366b91af65e02407110cba86a
+SHA256sum: b9cfe597afd65a4cf8e73107763466219de6eab32aa02e94c50997c86959ab8d
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-mini
@@ -174,11 +174,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 160561
+Installed-Size: 160556
 Filename: hostapd-mini_2016-06-15-2_hisilicon.ipk
-Size: 161253
-MD5Sum: 2347f694689d01ce5462ecbdb00dc856
-SHA256sum: 5e42eff8ebe29fb23f556ab523146e57f5c8eee903543b5d58d668af7b558cb1
+Size: 161281
+MD5Sum: f0fadefea7160b4e32521309e09a2e6f
+SHA256sum: 8d8c0f980393d8bf079372365fdb20fd0b179155efc6fa760be5f5159ae25078
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator (WPA-PSK only).
 
 Package: iptables
@@ -188,11 +188,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: hisilicon
-Installed-Size: 16900
+Installed-Size: 16896
 Filename: iptables_1.4.21-1_hisilicon.ipk
-Size: 17821
-MD5Sum: efbbacbfb4ed089f1acd2f0a93cec7eb
-SHA256sum: 5dfbe2aba69f178efefc5b2bd7b03aa318ce2a3117d83b2d10f0419344308d3f
+Size: 17809
+MD5Sum: 5332227ef63898ff907e6367fbd089d5
+SHA256sum: f4293f4169f36fbb8b1c9affd8ac9f687e7d25fde40b1a5bf6b3c89e1939c4ce
 Description:  IP firewall administration tool.
  
  Matches:
@@ -238,11 +238,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 34907
+Installed-Size: 34908
 Filename: iw_4.3-1_hisilicon.ipk
-Size: 35663
-MD5Sum: fe31bc1d8215d959b61bc2fe12b20bdf
-SHA256sum: 2f0358a0cdc1624422088d892622c8271b97d17d06af81e00b4642268dbcfd1f
+Size: 35687
+MD5Sum: a5cb8a8f4be767d2d231f0ccd98ff87e
+SHA256sum: 9a3bd70d928d182d471ccc1fdc1400453a0bc45790857dd0dbd6f314fa57c599
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
@@ -255,9 +255,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 6166
 Filename: iwinfo_2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371_hisilicon.ipk
-Size: 6983
-MD5Sum: 254a4274ce0ecea93fb59cfeb338bec0
-SHA256sum: 6c7241953f1e45f28fe4a6544ebb2dd47115651675a31beecca9292a3fef2646
+Size: 6982
+MD5Sum: 7bdb1147828b78b20b46fbc8de899a98
+SHA256sum: 1f90e25a8f6825fc7598085da249c5baaca333818b69571b8feff0c6737215d7
 Description:  Command line frontend for the wireless information library.
 
 Package: jshn
@@ -268,11 +268,11 @@ License: ISC
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 4907
+Installed-Size: 4909
 Filename: jshn_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_hisilicon.ipk
-Size: 5683
-MD5Sum: fa6fc186ebcb6c5e4ad3b7fe052da20c
-SHA256sum: 357a29f85d2c25da6aa7984324f8d0e4d80e580440aae57e069fc693334bd857
+Size: 5686
+MD5Sum: 2018d2930ba170bf1d2058cdc1cc5b9b
+SHA256sum: b07e5c910e0a3e38b762dddaed52f80b4ee7ed23e0e0fc31c01020873b9d7332
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
@@ -283,11 +283,11 @@ License: ISC
 Section: base
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 7106
+Installed-Size: 7109
 Filename: jsonfilter_2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9_hisilicon.ipk
 Size: 7894
-MD5Sum: a11d950be5140faaa2bc7cb75bfe026d
-SHA256sum: 141d2a967b8169d789f369e704a05d13e1a1b714c1f5af332d35f65efcdd4755
+MD5Sum: 446dcd0ce47428c47400d3d5c8a3b6f0
+SHA256sum: 4eb8143e6571513833b3f040ece75b714e56aa2df5233de85830d58df6d06bca
 Description:  OpenWrt JSON filter utility
 
 Package: kmod-ath
@@ -297,11 +297,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 12082
+Installed-Size: 12083
 Filename: kmod-ath_3.0.8+2016-01-10-1_hisilicon.ipk
-Size: 12872
-MD5Sum: 00d6eb4a080713842ff8047270876e1d
-SHA256sum: 5340d57f9ca9de859746f7574ae00012a28f3c92186bce7c97deb8f79d452ff6
+Size: 12867
+MD5Sum: b490b125c3524905e4a039ebe1309b6a
+SHA256sum: 5db61240628b2533ec236637f1bfb087888f367182c53b5c435c67c803621b71
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-cfg80211
@@ -311,11 +311,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 127642
+Installed-Size: 127646
 Filename: kmod-cfg80211_3.0.8+2016-01-10-1_hisilicon.ipk
-Size: 128407
-MD5Sum: 590a10e340a9f7ffb2c64bde42a7811c
-SHA256sum: 2df4b752047c22d051976e4027eaa43f821e6efccbca288e5e1a42de1e2cb023
+Size: 128375
+MD5Sum: 45c0203da100cc242efc0a33fb59d228
+SHA256sum: 5833d79575a8482b5f0f6f022db15af0b07f28ff45e8ae59ff46bcaa512129c2
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aead
@@ -326,11 +326,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 237
+Installed-Size: 234
 Filename: kmod-crypto-aead_3.0.8-1_hisilicon.ipk
 Size: 1039
-MD5Sum: 845db4e632de0ee7df755bac610bfcfc
-SHA256sum: 064fc0d3d0f1fd3163f64a2f07a168c21bd1a3122a5c0889c3098f0ef5bd3183
+MD5Sum: 4bc2a902239f4141966a6b72693a3674
+SHA256sum: 61bd9bae67a36bf52d370a385b130b2086f59b06cd4b09a860d011571826ed3c
 Description:  CryptoAPI AEAD support
 
 Package: kmod-crypto-arc4
@@ -341,11 +341,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 192
+Installed-Size: 191
 Filename: kmod-crypto-arc4_3.0.8-1_hisilicon.ipk
-Size: 998
-MD5Sum: 70e488f4c9d77d3f96cb6ef5a9d11264
-SHA256sum: 230855716839b7be67d08f794a51f6f3a66be9fdf1d958aca980f05f743f9cc1
+Size: 1000
+MD5Sum: e24792f6c5c5d802b198238ea268031d
+SHA256sum: 6e52e67224018adc079c3b4c1e5c6ff6470d9b61988feff48e0182eee50d6bad
 Description:  ARC4 (RC4) cipher CryptoAPI module
 
 Package: kmod-crypto-core
@@ -358,9 +358,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 105
 Filename: kmod-crypto-core_3.0.8-1_hisilicon.ipk
-Size: 831
-MD5Sum: d8a1e19c45f18d800e764b1fa8d61e53
-SHA256sum: 6f117d2503d116599313ec87c51b8a6ffb63557842c658312c12b54d598ce0c3
+Size: 829
+MD5Sum: 729dd08aae76338fe7e682758e82869f
+SHA256sum: 2c60182e7e84bda43c6a90b661e272844c1a137128174b1e1b2b6ac5509c7803
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-des
@@ -373,9 +373,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 199
 Filename: kmod-crypto-des_3.0.8-1_hisilicon.ipk
-Size: 1003
-MD5Sum: f0def3daf9b3c70999277060cbcc64cd
-SHA256sum: 50f2430fc0235421593a1d46aea96752d47641fac104dab92ff9a3f77785f099
+Size: 1007
+MD5Sum: 172df141eab617478945543ed8a64325
+SHA256sum: 5370be9b19a55ffd3aa9e68494c99629f6398dca2c8c02178ac96c143518d41f
 Description:  DES/3DES cipher CryptoAPI module
 
 Package: kmod-crypto-ecb
@@ -388,9 +388,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 189
 Filename: kmod-crypto-ecb_3.0.8-1_hisilicon.ipk
-Size: 1006
-MD5Sum: df8d909a8a50f1c8b4276b2b024916d1
-SHA256sum: c9392099975ccc11f13cf70ee8e74b421322d63bb6f79880e3f16a6214149d2b
+Size: 999
+MD5Sum: f670b2160c8ae417216200d1530f52d1
+SHA256sum: e4f240382b8411b5b537e94307794a0c962fdc4578430b9c34d600132e6a69c2
 Description:  Electronic CodeBook CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -401,11 +401,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 241
+Installed-Size: 240
 Filename: kmod-crypto-hash_3.0.8-1_hisilicon.ipk
 Size: 1040
-MD5Sum: c977fe2829af9fe181d58a827a75c3e4
-SHA256sum: c1449ccd1b1b59b58fe8e7eb68c78ad387111618074ab66b9522e68c55af4eec
+MD5Sum: 7c7297f62af25aaec7b5636bb4679965
+SHA256sum: e62978128cefa15a2c39e11cde11f2b2338dd38025ee9d31880a2752c3cd9f20
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -416,11 +416,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 192
+Installed-Size: 191
 Filename: kmod-crypto-hmac_3.0.8-1_hisilicon.ipk
-Size: 1005
-MD5Sum: 97d4e42843c974167b108e0080bf9c6d
-SHA256sum: 2bf849f18ab3f73919f889f4d243812cc76345544f7e2debc85590af60b7b03e
+Size: 999
+MD5Sum: 3655dc61dc2b155cdc0b5313eb3f504a
+SHA256sum: 042fb643b6b39463ec3985b4cb1ffa268c6d76434346a3045203e7e4ceb5c20e
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-manager
@@ -433,9 +433,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 105
 Filename: kmod-crypto-manager_3.0.8-1_hisilicon.ipk
-Size: 861
-MD5Sum: af477d07275b62c7791f5f2941ee7f6b
-SHA256sum: 21c5d75a450b7973a1850be95c9907f9401b85e1f228760dead74d4f6fbf1c12
+Size: 862
+MD5Sum: ab21af5dc7d42051e4e465b9457223e7
+SHA256sum: 33975aa23ea571dc8269d49acaa67b02656f8e7ebb7241d9b77cdf513ccc4fbe
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-md5
@@ -446,11 +446,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 189
+Installed-Size: 190
 Filename: kmod-crypto-md5_3.0.8-1_hisilicon.ipk
-Size: 995
-MD5Sum: e310e53b1bce6a4eeb6d1474e5a9fc45
-SHA256sum: 753015052e2774e907d3f954f536bac56044edb2745bb574be488186f9c60e49
+Size: 996
+MD5Sum: 57ada36df058058fd991d2e8f1adcfdf
+SHA256sum: 3fe061fb5e8d969a380ec8bd60ca3dcdad3156473c23c1cbf5ec3f8f3aee4277
 Description:  MD5 digest CryptoAPI module
 
 Package: kmod-crypto-pcompress
@@ -461,11 +461,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 197
+Installed-Size: 198
 Filename: kmod-crypto-pcompress_3.0.8-1_hisilicon.ipk
-Size: 1016
-MD5Sum: 3c147b65e51051130dd2444392798415
-SHA256sum: 0d0add235ed8616be18de3a48e0082938e4f566138359357cd920ab3d5107964
+Size: 1014
+MD5Sum: ce15770714f6d3cc2adba88c0eb2820a
+SHA256sum: a172c293eaa2b5c058bc62dd5ed061f690e265e61f79440e194a02be0b46cf33
 Description:  CryptoAPI Partial (de)compression operations
 
 Package: kmod-crypto-sha1
@@ -478,9 +478,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 200
 Filename: kmod-crypto-sha1_3.0.8-1_hisilicon.ipk
-Size: 1009
-MD5Sum: 3180e75b6a94162d2a48378cde11d0ed
-SHA256sum: f1feeddb34ecc16f38fda6ad06c0d2e26c7505ffd400b748358a1afd1c81cf2d
+Size: 1008
+MD5Sum: 4184a3172179119c67bb4da9734d66a3
+SHA256sum: caacfbaab93c81e76d55d18b11612c89d3098d35fae26cdefe321f37dad24c43
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-sha256
@@ -493,9 +493,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 202
 Filename: kmod-crypto-sha256_3.0.8-1_hisilicon.ipk
-Size: 1015
-MD5Sum: 08f05ee2e5824c6cbe5be513859b579b
-SHA256sum: 944bb1ce55f579227809128cb406d626e87d7871a31c0ef142b077ab523c0068
+Size: 1019
+MD5Sum: 9afa9e994b943670c864f0a9a2bf007b
+SHA256sum: cbb1ec03d45cb1f710ee807433f07044b0af87525b49c97d69b7b307088b0d56
 Description:  SHA224 SHA256 digest CryptoAPI module
 
 Package: kmod-eeprom-93cx6
@@ -506,11 +506,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 1292
+Installed-Size: 1295
 Filename: kmod-eeprom-93cx6_3.0.8-1_hisilicon.ipk
-Size: 2122
-MD5Sum: 84e53f8b7afe7dc2fcc75a49b4e50e02
-SHA256sum: ef42e13531ae18f130e78e920bcf0baa348d3f748e700e48adfa8e1a5bac4523
+Size: 2120
+MD5Sum: e0cd69c0d650f214547beb36754ce232
+SHA256sum: 7fc38fe887d44b0f4f1d2e65ab650a9c5c65329e5838fb5c33c738596a4abadd
 Description:  Kernel module for EEPROM 93CX6 support
 
 Package: kmod-fs-cifs
@@ -521,11 +521,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 118158
+Installed-Size: 118162
 Filename: kmod-fs-cifs_3.0.8-1_hisilicon.ipk
-Size: 117978
-MD5Sum: 5ef69c42cfc42450686f4af82a7a6fde
-SHA256sum: 22085e8251014aeaa577eb9a31dd90fcf6ce2f0c5671f0c6ee08f198a4b1a935
+Size: 118095
+MD5Sum: 7a51db7525c4a5009b3887028321ff9c
+SHA256sum: d7113a4a4fbbe176ca74785065624f2c3ddea7014f05708ec8f937c8ef47167d
 Description:  Kernel module for CIFS support
 
 Package: kmod-fs-vfat
@@ -536,11 +536,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 189
+Installed-Size: 190
 Filename: kmod-fs-vfat_3.0.8-1_hisilicon.ipk
-Size: 996
-MD5Sum: d59d16f3e0f5961a65ca0d23809c788a
-SHA256sum: c73e93263b68d70a1f4d2ac82f75c127816f4a2a14d41aa42330194023e9ea1a
+Size: 999
+MD5Sum: e6600bde4c9a074fefe8cf127892a848
+SHA256sum: de8db918a23e035cf08e02ad29c54ee8cd4c44d06dbc0f74eacebe433d6f5a0c
 Description:  Kernel module for VFAT filesystem support
 
 Package: kmod-i2c-algo-bit
@@ -553,9 +553,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 192
 Filename: kmod-i2c-algo-bit_3.0.8-1_hisilicon.ipk
-Size: 1004
-MD5Sum: 9d454612e5b2fd0c79f9e2542d839618
-SHA256sum: 20630b732e4a8dc989405feaaf962fabd08aec6dbee9143b3104d76218db7cb5
+Size: 1001
+MD5Sum: 62bc20830c3b6a5bed3bf240121076f2
+SHA256sum: fcb56f3bde76e601d756936a8613f1bab98bedd603096438a086986aa416ae14
 Description:  Kernel modules for I2C bit-banging interfaces
 
 Package: kmod-i2c-core
@@ -566,11 +566,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 4243
+Installed-Size: 4248
 Filename: kmod-i2c-core_3.0.8-1_hisilicon.ipk
-Size: 5027
-MD5Sum: 1e405cabfd450c2ce3f9bd9e0c60960e
-SHA256sum: 6383cadf9e36be5e2569ddca09dd705e0382e6ba707e07312cfc491f6f788a10
+Size: 5034
+MD5Sum: 5e5b9611b1e3bb0d3103797eebb993f6
+SHA256sum: 345151f0fd7b15fd83eee128898aecfa55d69f172f4b49a7603e1615145b36d3
 Description:  Kernel modules for I2C support
 
 Package: kmod-i2c-gpio-custom
@@ -579,11 +579,11 @@ Depends: kernel (=3.0.8-1-7cb84b80689c0dd8147c7574100b0a98), kmod-i2c-core, kmod
 Source: package/kernel/i2c-gpio-custom
 Section: kernel
 Architecture: hisilicon
-Installed-Size: 1770
+Installed-Size: 1768
 Filename: kmod-i2c-gpio-custom_3.0.8-2_hisilicon.ipk
-Size: 2517
-MD5Sum: 377fe4b1745e4c9a1a04cbe5c843ab63
-SHA256sum: 32192abb2a2d78a24a7ef7cc8809794c3c38db25c25c3126865765c0f6c2b4c9
+Size: 2522
+MD5Sum: e9e931d115d3ce8333d8ed8c41069bb3
+SHA256sum: 1b49b37139bc5aa3a018d1d0d02a8f863552afe767806523433116750945dfd4
 Description:  Kernel module for register a custom i2c-gpio platform device.
 
 Package: kmod-i2c-gpio
@@ -596,9 +596,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 190
 Filename: kmod-i2c-gpio_3.0.8-1_hisilicon.ipk
-Size: 1057
-MD5Sum: 6fb71312e81ba7a3d0d0dabe7e7dcef2
-SHA256sum: 70705af030fba38f9c6acc5eae1635eb7ee919da6ca4d0a6818984f5b75e6c19
+Size: 1059
+MD5Sum: 7c947f425bcb1843616364444cf84573
+SHA256sum: 0ee41de259c95784039f9b03f272c78ab84d9af37970794e959e4d11c11bba6c
 Description:  Kernel modules for a very simple bitbanging I2C driver utilizing the
  arch-neutral GPIO API to control the SCL and SDA lines.
 
@@ -612,9 +612,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 2441
 Filename: kmod-i2c-tiny-usb_3.0.8-1_hisilicon.ipk
-Size: 3296
-MD5Sum: b51171a7e477e865916b45c36db74dc3
-SHA256sum: cbe0bb3f4bbf8a20b8058b0636da8cbe9a385d1b7f13a7ca4d564e56becc0ef5
+Size: 3298
+MD5Sum: 845cbad816b45bd5b158a5894fbdc2b1
+SHA256sum: 9b2051a7bad3201767e63f54e284d9a846ad66224444139fc30f27ec5f3ed204
 Description:  Kernel module for the I2C Tiny USB adaptor developed
  by Till Harbaum (http://www.harbaum.org/till/i2c_tiny_usb)
 
@@ -626,11 +626,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 4775
+Installed-Size: 4776
 Filename: kmod-ip6tables_3.0.8-1_hisilicon.ipk
-Size: 5602
-MD5Sum: df4ba9355e4553c156be12876a0860d3
-SHA256sum: 9d149009003720dbf453347a960d7178d719e2808a2859ef36808afadd78deee
+Size: 5603
+MD5Sum: 15b2746ae7d9677455c44c9e9cc101c0
+SHA256sum: bacfb22259f6db469c317444a8842754fc69d947f53787f46f5deab26e1b3a4b
 Description:  Netfilter IPv6 firewalling support
 
 Package: kmod-ipv6
@@ -641,11 +641,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 185
+Installed-Size: 184
 Filename: kmod-ipv6_3.0.8-1_hisilicon.ipk
-Size: 971
-MD5Sum: ace917b23a7a42894d5cae0b5b4e0ed2
-SHA256sum: 719380461504ad2ab042b6b6c40b196620e5c3b62b9ce41d42ebec67e74adc75
+Size: 974
+MD5Sum: debbf92e9ff261a40f79cb889c4cc584
+SHA256sum: 89b351f4d041f13d1f6a2bcf5f654d73c6518a99beee94d3a89e166de3a5bfa0
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-ledtrig-usbdev
@@ -658,9 +658,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 105
 Filename: kmod-ledtrig-usbdev_3.0.8-1_hisilicon.ipk
-Size: 876
-MD5Sum: a4b58daad8f648806c176110926f6f0f
-SHA256sum: 9d990614b16b62ecf52186a690aa28b60c9283f63e04649987e050c0bdaee1a2
+Size: 875
+MD5Sum: 2ed2d2b3f7dc65c934bebdf804a03f5a
+SHA256sum: c8325e0f20e88fe7295da726d8a6b976459d83e01be08a1df0f7c7f5a863d057
 Description:  Kernel module to drive LEDs based on USB device presence/activity
 
 Package: kmod-lib-crc-ccitt
@@ -671,11 +671,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 191
+Installed-Size: 190
 Filename: kmod-lib-crc-ccitt_3.0.8-1_hisilicon.ipk
-Size: 993
-MD5Sum: 18743e1d3aa9ce0c3536b9704e8c5f55
-SHA256sum: 5a668bb83fd211358be0665817688d7d4a9b417495daae379815110b75831c36
+Size: 987
+MD5Sum: ba625a523066267b8fe5b257f7cde8ae
+SHA256sum: e5ce2bd4b0f72bf004b814089386b64d22a5fa4920b3b699ef1ac64b2a85ba14
 Description:  Kernel module for CRC-CCITT support
 
 Package: kmod-lib-crc-itu-t
@@ -686,11 +686,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 191
+Installed-Size: 190
 Filename: kmod-lib-crc-itu-t_3.0.8-1_hisilicon.ipk
-Size: 995
-MD5Sum: 6c209d6ba15d70536368fb702e071741
-SHA256sum: 385461c451774027f5838e74e232d3a6e7a6194c4ad02bfd1f0bab790edf8e5c
+Size: 996
+MD5Sum: 50c47135fc63ea56768541566eb0e677
+SHA256sum: 6256afed7df1db7c0c2d4ce0bc26c03ac2f31fc2341645d8f66999ee16bfc99f
 Description:  Kernel module for CRC ITU-T V.41 support
 
 Package: kmod-lib-crc32c
@@ -703,9 +703,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 189
 Filename: kmod-lib-crc32c_3.0.8-1_hisilicon.ipk
-Size: 1000
-MD5Sum: f61650c50b187eed913fffd46e282a7f
-SHA256sum: 0c1a41c5577a256d7a9c11c4c9204818b771a69596c45df8c2d055544eec719e
+Size: 996
+MD5Sum: 4f9840e354ad0cd665e6edca019912ba
+SHA256sum: 83b11ad76b60987bde1e24ffdb8bbc333ef157dc03ba9158549a9903ff9c1dc2
 Description:  Kernel module for CRC32 support
 
 Package: kmod-lib-lzo
@@ -718,9 +718,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 201
 Filename: kmod-lib-lzo_3.0.8-1_hisilicon.ipk
-Size: 1013
-MD5Sum: 93fd84e4ce672a09218c20e0c5813a2b
-SHA256sum: f069cff4d75eefc433ebb9baf5b50686cac732e15e05d284e9c0c746f4e58e78
+Size: 1014
+MD5Sum: 81d98643dc6726d8a6c21e0a1d60dd7b
+SHA256sum: 2ab9a23e99694b1163b889bb639e1889421d20c5b8c7de7447f646d9362044bf
 Description:  Kernel module for LZO compression/decompression support
 
 Package: kmod-lib-zlib
@@ -731,11 +731,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 201
+Installed-Size: 199
 Filename: kmod-lib-zlib_3.0.8-1_hisilicon.ipk
-Size: 995
-MD5Sum: 674d00fecf9148ebb5d6313ef079478d
-SHA256sum: d501ccbe5212f71efb432878df318896bfddcf43cb8c1197abb7ab8737a547d1
+Size: 989
+MD5Sum: 1dc93a909e7fee63a9ad4e129046d678
+SHA256sum: a966b45426961a449a1d22abdc5dc2b1b07ca0b9c8e3402e227021203f5a785c
 Description:  Zlib support
 
 Package: kmod-lib80211
@@ -745,11 +745,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 10792
+Installed-Size: 10800
 Filename: kmod-lib80211_3.0.8+2016-01-10-1_hisilicon.ipk
-Size: 11654
-MD5Sum: abe8b4baf06b207e4d05b584bc6c6abd
-SHA256sum: 4560f20ddd88d259ec7f55a3408d68ff6d7ee7a146e510578f84b321501309d8
+Size: 11672
+MD5Sum: a91f56cb92fe3a87da7c0e24a1931b35
+SHA256sum: 23c85fcaa150e5873ded5982b3119fc55a78784fffd16962fea122dcac9f93f0
 Description:  Kernel modules for 802.11 Networking stack
  Includes:
  - lib80211
@@ -767,9 +767,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 183
 Filename: kmod-loop_3.0.8-1_hisilicon.ipk
-Size: 980
-MD5Sum: 7b199cd5b2f46eb5106cac1b2d140f01
-SHA256sum: da2a0c3b8ad7f19f88c77b784906c65f9aff3fb33d30da8e6800dce80123f472
+Size: 977
+MD5Sum: 0e7805f5dcb13c44c393aba0af4f7a93
+SHA256sum: da27b4f0e6bc2b10675d5f0a4d80ff059c6b79d382a8bfd89bf9929f91657450
 Description:  Kernel module for loopback device support
 
 Package: kmod-mac80211
@@ -779,11 +779,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 176466
+Installed-Size: 176464
 Filename: kmod-mac80211_3.0.8+2016-01-10-1_hisilicon.ipk
 Size: 176967
-MD5Sum: 662b4d898bd582fbd3a545986566442b
-SHA256sum: cd7cf4536416e847770fa7daf66c4f2bcef43bc3eaff422c7f0ee7c7060b259b
+MD5Sum: 419edc7dcd860c17ee56507bfff8de17
+SHA256sum: 0db530b1275306ee883c53e8c6895ad0e1e10db51b24652c612d3b6f34e3438a
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mii
@@ -796,9 +796,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 226
 Filename: kmod-mii_3.0.8-1_hisilicon.ipk
-Size: 1008
-MD5Sum: 8b7cf97499512d5f9dfbd01a24b8a058
-SHA256sum: ae0f458b2507b0778ef5e743ebbbff4f782d3fdb987713a319fbdcca03c06216
+Size: 1003
+MD5Sum: b9cbe6932b5ec548d01b3660cbbf4e29
+SHA256sum: de26b5c7f28f12c2d0b791b60fa4235433ab246bac2ff896da674122f52a0232
 Description:  MII library
 
 Package: kmod-mmc
@@ -809,11 +809,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 234
+Installed-Size: 235
 Filename: kmod-mmc_3.0.8-1_hisilicon.ipk
-Size: 1038
-MD5Sum: 763cee06f8bfb84331c1cffb27a2f548
-SHA256sum: 53152cdb2daa0fecaf37984eb88bd7565d1ff2784ebd26b279dccc900850a99e
+Size: 1035
+MD5Sum: a2ed3932e2a4168cc8af8d5353f1d490
+SHA256sum: de29f2ffdab7bb0392ff18bc582b200e0545d7561327a68218befbb35c0565ee
 Description:  Kernel support for MMC/SD cards
 
 Package: kmod-mtdtests
@@ -824,11 +824,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 21002
+Installed-Size: 21005
 Filename: kmod-mtdtests_3.0.8-1_hisilicon.ipk
-Size: 21725
-MD5Sum: b3c22eb94ca1c47b416c418fd2568362
-SHA256sum: 6821947f6849201a953535ed57eb689f5e00da04ed7bdc5ad42c82ceb41fbd54
+Size: 21744
+MD5Sum: ec87835706cab4e9b02fef8e99ce92ce
+SHA256sum: 456668559e2dfe511451c40d3397fe43496e6ed7fee670bb308310bc5c648366
 Description:  Kernel modules for MTD subsystem/driver testing
 
 Package: kmod-net-rtl8188eu
@@ -839,11 +839,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 310272
+Installed-Size: 310186
 Filename: kmod-net-rtl8188eu_3.0.8-1_hisilicon.ipk
-Size: 309826
-MD5Sum: 73b27769d55ab44c9024e3be0649401d
-SHA256sum: a0c5fe826346b0c06b4a943f1b273f417b3ef8a99ce1169e23b84f6be7ef88d7
+Size: 309679
+MD5Sum: 7c394e78e4ccbba8c67801d90f7ac989
+SHA256sum: 1b7cc0ef1fd035044dbb963762e3bd8ae5694c33be0e48338f12db0836ee19a7
 Description:  Kernel modules for RealTek RTL8188EU support
 
 Package: kmod-nls-base
@@ -854,11 +854,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 106
+Installed-Size: 105
 Filename: kmod-nls-base_3.0.8-1_hisilicon.ipk
-Size: 853
-MD5Sum: 29b30231d511e733129f0c8168bf077e
-SHA256sum: ee8667e74771499a92a15da31949e3395d21fff932aefe2651f01f6954796523
+Size: 849
+MD5Sum: 327ed86c59374270b46447c19b3f0ca0
+SHA256sum: 61322f0b3a17ba64278d1b0cadede5cd6fba355db0ad9b00918238ddad4b6d31
 Description:  Kernel module for NLS (Native Language Support)
 
 Package: kmod-nls-cp437
@@ -871,9 +871,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 191
 Filename: kmod-nls-cp437_3.0.8-1_hisilicon.ipk
-Size: 1016
-MD5Sum: a766d86c8bd9fbbe7acc27fa7234b913
-SHA256sum: e330fd49425d9d09d0d1f0e4a6fcb2a1226df2ec9bcc3cf163effbb0e37013ee
+Size: 1015
+MD5Sum: 49a677c27621ae34d72908c340444060
+SHA256sum: 8ecbfaa9c9a4e96cb14459f7e6e6b33d2d2901d12a5c2f39894222dad31ae478
 Description:  Kernel module for NLS Codepage 437 (United States, Canada)
 
 Package: kmod-nls-iso8859-1
@@ -887,8 +887,8 @@ Architecture: hisilicon
 Installed-Size: 198
 Filename: kmod-nls-iso8859-1_3.0.8-1_hisilicon.ipk
 Size: 1006
-MD5Sum: 6f895c3446bf2bb6a5f20781242e6e65
-SHA256sum: 815d49490c2ca78df26ec96f592edfd25bf0fe5969f5610fdb505ee68bc9e393
+MD5Sum: 6909a255284b9ba95b9740853980a9ec
+SHA256sum: 238179696aa8fb36dc56a7ea944721ac700f52a6508fd3f5353485dd7d5a7e8c
 Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
 
 Package: kmod-nls-utf8
@@ -899,11 +899,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 192
+Installed-Size: 191
 Filename: kmod-nls-utf8_3.0.8-1_hisilicon.ipk
-Size: 995
-MD5Sum: 78cebef91ea7736d0f8ff0bfd17d43ed
-SHA256sum: 0b36d18b85276207d034c092f30937c94503729571b9f239b718234a010a3e42
+Size: 986
+MD5Sum: 7f636d4adedad917d4389122043bd9aa
+SHA256sum: c5626f5e3540dba56e83e189e64ae4a614390c6ede5cb2497ad5605eabac1e84
 Description:  Kernel module for NLS UTF-8
 
 Package: kmod-rtl8187
@@ -913,11 +913,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 22461
+Installed-Size: 22462
 Filename: kmod-rtl8187_3.0.8+2016-01-10-1_hisilicon.ipk
-Size: 23263
-MD5Sum: 1841fa27e51be5fd37189b2189d748aa
-SHA256sum: a02eb1fd2e5dc60772bfa2c333ebb70b98e7b3ea52ea64b0e89996cb8928860a
+Size: 23274
+MD5Sum: 8cd4a9e25f0ecdf49167e9edd1a6de88
+SHA256sum: bb887cc91a3ddd6a2b0e1570360dfdca7d6f23174d43f314b48846bc4585f07e
 Description:  Realtek Drivers for RTL818x devices (RTL8187 USB)
 
 Package: kmod-rtl8xxxu
@@ -927,11 +927,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 25416
+Installed-Size: 25413
 Filename: kmod-rtl8xxxu_3.0.8+2016-01-10-1_hisilicon.ipk
-Size: 26677
-MD5Sum: 478e7897ec374bcd31490674b9b9f5f7
-SHA256sum: 52f2db4f21cb2ab626d455ea0a941f2304256877702c27f6ec565aca1758859e
+Size: 26697
+MD5Sum: 2c5db1ba5b59cc5d67b2a3f9cfb4f2d8
+SHA256sum: 626e66257638e7adfaad601508d16cfdf0b4500cb1ba633e2b774311d91d72ec
 Description:  This is an alternative driver for various Realtek RTL8XXX
  parts written to utilize the Linux mac80211 stack.
  The driver is known to work with a number of RTL8723AU,
@@ -964,9 +964,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 239
 Filename: kmod-scsi-core_3.0.8-1_hisilicon.ipk
-Size: 1030
-MD5Sum: 699897d36cd568e17aca463c64fbb829
-SHA256sum: 8109f610fa6d40b4c4422f22539e6832318dd078af7adb5dba407e1114d14d7e
+Size: 1027
+MD5Sum: a4ad39d416179aebd0ec1f9ce2c58e61
+SHA256sum: 1141853c694b7f235758b575847e94608425faf69cff3eaf532bfa259fa2143a
 Description:  SCSI device support
 
 Package: kmod-slhc
@@ -979,9 +979,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 105
 Filename: kmod-slhc_3.0.8-1_hisilicon.ipk
-Size: 843
-MD5Sum: 4d29293c3305bae5c64331bcdc62e2bf
-SHA256sum: 9b6bfe022a683f12db3602e88374873ab5ad9f9af84c48ac5b3106bbf2047a2e
+Size: 845
+MD5Sum: e6de105c6c723c10bd13117e3bbea436
+SHA256sum: 043cd47f20c85d6015c5183186944a5128fd774b0b182c5d3674df3a339c5cd4
 Description:  Serial Line Header Compression
 
 Package: kmod-usb-acm
@@ -994,9 +994,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 185
 Filename: kmod-usb-acm_3.0.8-1_hisilicon.ipk
-Size: 1011
-MD5Sum: 828cb0fa7859c339bf9bd604065a3f89
-SHA256sum: eb403445541223254cf3e96f469ef0f4de0b67e7335cbcba073da1949ca12163
+Size: 1006
+MD5Sum: ec11ec2a70997e3910b10d18e740c252
+SHA256sum: ce4b0dd0c4b96a6d29adf4d38218bb821a495fd9216d22587d377d639c86fb82
 Description:  Kernel support for USB ACM devices (modems/isdn controllers)
 
 Package: kmod-usb-core
@@ -1007,11 +1007,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 238
+Installed-Size: 237
 Filename: kmod-usb-core_3.0.8-1_hisilicon.ipk
-Size: 1040
-MD5Sum: 1c8cacdd0225922ee93b78f3c595f3c4
-SHA256sum: 1d21cec4b22545160bf355af48517514367ec2485a7dfc0bea0c220e98e0f375
+Size: 1038
+MD5Sum: 2f88f1470b3d8124efadd691bb6bac81
+SHA256sum: 21d76cd7d00bc0179d615aea02fed91cc7501ab93929964188ed912b49692ed6
 Description:  Kernel support for USB
 
 Package: kmod-usb-hid
@@ -1024,9 +1024,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 188
 Filename: kmod-usb-hid_3.0.8-1_hisilicon.ipk
-Size: 1038
-MD5Sum: 771a29f649b7cafc4234de64d3da5828
-SHA256sum: 9e3baa1ddd0302d18e418947e4027a90500fb1f3e83ed5946af53b3df4926c61
+Size: 1035
+MD5Sum: 904bca3b060019933ad0c30b6c7dfebd
+SHA256sum: d72749fa3ea75cf9b7253a83782e423c46fc27f9db54f2503c2c2ab7cbf28760
 Description:  Kernel support for USB HID devices such as keyboards and mice
 
 Package: kmod-usb-net-dm9601-ether
@@ -1037,11 +1037,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 4526
+Installed-Size: 4519
 Filename: kmod-usb-net-dm9601-ether_3.0.8-1_hisilicon.ipk
-Size: 5320
-MD5Sum: 16a9113acbcd7dd9d4c705f4315d9f85
-SHA256sum: b80995ab72b4f35e6702db64f7c15831841be081c53335bc63e139e85bb5d1a6
+Size: 5319
+MD5Sum: abb433e10327bb2086d717abdc0372f6
+SHA256sum: fe15e93c6ecedf90418a04ae0d755da5e9f4a44b14ad9630a61e553160b53b40
 Description:  Kernel support for USB DM9601 devices
 
 Package: kmod-usb-ohci
@@ -1052,11 +1052,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 251
+Installed-Size: 249
 Filename: kmod-usb-ohci_3.0.8-1_hisilicon.ipk
-Size: 1060
-MD5Sum: 31672da6b47efe5b4649c039d79223db
-SHA256sum: 7938c647c216fb6de5989b735cd8ed93250e44e3b73a643b956b15138df5eb37
+Size: 1055
+MD5Sum: 3be10de9ee867ff61128302e6bf84e06
+SHA256sum: eabe58ab94d2c5df6feeb92c0688e5dfd2c95b7a94c1d04047a927eec0073fdc
 Description:  Kernel support for USB OHCI controllers
 
 Package: kmod-usb-serial-ch341
@@ -1067,11 +1067,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 4987
+Installed-Size: 4990
 Filename: kmod-usb-serial-ch341_3.0.8-1_hisilicon.ipk
-Size: 5803
-MD5Sum: 87dbd36b004258a28a0ea8608d2333ca
-SHA256sum: d18ccb2bd47fabcbfdee7bee450af4b623cbb7fcb23abe9fc4a64dbb0890fefb
+Size: 5817
+MD5Sum: 1e089adabf0abf31104d693c6fe5d235
+SHA256sum: 5ab062c26ac4251010f4d6bc4268b7f576732a986c3e7b083a9fb686091f40d7
 Description:  Kernel support for Winchiphead CH341 USB-to-Serial converters
 
 Package: kmod-usb-serial-cp210x
@@ -1082,11 +1082,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 6285
+Installed-Size: 6288
 Filename: kmod-usb-serial-cp210x_3.0.8-1_hisilicon.ipk
-Size: 7143
-MD5Sum: 363a73c4b1fd3ba60c02d6742e07064b
-SHA256sum: 93c9ade08e30045379897045c93c9f1408a236e21d99c063cfd01ec64833e2b1
+Size: 7150
+MD5Sum: 0c69adf0cc20a5f405a6b8c824b694f0
+SHA256sum: 0ee31a6694854a5663e13b1b321efd92569b825b6fc410336a1be2319275a0d4
 Description:  Kernel support for Silicon Labs cp210x USB-to-Serial converters
 
 Package: kmod-usb-serial-ftdi
@@ -1097,11 +1097,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 15293
+Installed-Size: 15291
 Filename: kmod-usb-serial-ftdi_3.0.8-1_hisilicon.ipk
-Size: 15774
-MD5Sum: a8f7cba8d81ebe28d6a960136b277ad6
-SHA256sum: ba4023aef3af7fc88f3b8de8723a44dafd33a08c357f5a80e41753d949ee2654
+Size: 15763
+MD5Sum: c7c7f0bcb42e0f48d21821fbac01bd51
+SHA256sum: eb05c31ab95cd67d5d83f11ed4aff25c11d1dd9fa5e4a93d6cd35af74c2571de
 Description:  Kernel support for FTDI USB-to-Serial converters
 
 Package: kmod-usb-serial-option
@@ -1112,11 +1112,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 6986
+Installed-Size: 6987
 Filename: kmod-usb-serial-option_3.0.8-1_hisilicon.ipk
-Size: 7301
-MD5Sum: 916b0fda84fc3299f0c5f2239c9c3252
-SHA256sum: 1b67a3bd91d1bf94e4aa1d5e744c04ee301fd92d1e06937fde38c9e952736a86
+Size: 7380
+MD5Sum: b2a00c14ecde65932bbd10f7f2c82212
+SHA256sum: 1abec4176c23fd5496c78ea501ef582ba0dabb052a198a55b81c0646513cbf7d
 Description:  Kernel support for Option HSDPA modems
 
 Package: kmod-usb-serial-pl2303
@@ -1127,11 +1127,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 7251
+Installed-Size: 7256
 Filename: kmod-usb-serial-pl2303_3.0.8-1_hisilicon.ipk
-Size: 8105
-MD5Sum: 7473861c1427e36c0dac8dd769c047cf
-SHA256sum: dd469619c77d8c6fd0e059a94c9c90583cdcce1681ea4aed2bf7a422208a2db0
+Size: 8115
+MD5Sum: 49a241f5cddfaa5e1b47583874b0dcaf
+SHA256sum: 595d6e539f0d736bdf100cec4a4fcadcf1320544f1da1019cf7db180a1a1ebe1
 Description:  Kernel support for Prolific PL2303 USB-to-Serial converters
 
 Package: kmod-usb-serial
@@ -1142,11 +1142,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 13629
+Installed-Size: 13630
 Filename: kmod-usb-serial_3.0.8-1_hisilicon.ipk
-Size: 14454
-MD5Sum: 76b00b03ee44c6eff04deb6b37ca6a5f
-SHA256sum: 1290c7428cadd195e8a469d2375568752451a2c999780418b17d1aba275d70af
+Size: 14461
+MD5Sum: 3fd107aefccbb26d377f8029f807cd68
+SHA256sum: 6b5b4163ee172096343c59a64d371b561617e6570e7393fe36cda606d49dea0f
 Description:  Kernel support for USB-to-Serial converters
 
 Package: kmod-usb-storage
@@ -1159,9 +1159,9 @@ Status: unknown hold not-installed
 Architecture: hisilicon
 Installed-Size: 232
 Filename: kmod-usb-storage_3.0.8-1_hisilicon.ipk
-Size: 1055
-MD5Sum: 3a9dffad0d677b8f67f3815dbe1b9fa0
-SHA256sum: 68a93236e5fe998f2e8848a3fbc2661abaa87547b451989db501cf2e48b67956
+Size: 1053
+MD5Sum: 253e96b5f5df43b1309cc3f36bdee243
+SHA256sum: 545cbe19bd912d77f295d88d685fc46d4968e2195eb7f8cced8d86be4de96572
 Description:  Kernel support for USB Mass Storage devices
 
 Package: kmod-usb-uhci
@@ -1172,11 +1172,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-usb-uhci_3.0.8-1_hisilicon.ipk
-Size: 854
-MD5Sum: 6d17d4d9cf16d6936e7effa2048d03e9
-SHA256sum: cd55e6b2e6883f1b2d527be2bd3e06629347d2c565e6a6550eeddcfcfdf80376
+Size: 856
+MD5Sum: 9765213005fecfb94bb2707c460aaf62
+SHA256sum: 077e379d747ecc6a7351ce6b5112d6373735ecf3362099c399710bf819836da6
 Description:  Kernel support for USB UHCI controllers
 
 Package: kmod-usb2
@@ -1187,11 +1187,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 252
+Installed-Size: 253
 Filename: kmod-usb2_3.0.8-1_hisilicon.ipk
-Size: 1061
-MD5Sum: 4c2b51717675d7f8b27e47bf1d6e8784
-SHA256sum: 79c717a8aeb1ce6b38b0df108971cc68e46a9706ac1f6135b9d51f2e7e0e0a85
+Size: 1064
+MD5Sum: 6aaf8063e68105a6264063ae6be58350
+SHA256sum: c6c4d1b99e944db2ceebb995e933f11232a9d1e2efab8325cba67e47a52629e7
 Description:  Kernel support for USB2 (EHCI) controllers
 
 Package: kmod-usb3
@@ -1202,11 +1202,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: hisilicon
-Installed-Size: 104
+Installed-Size: 105
 Filename: kmod-usb3_3.0.8-1_hisilicon.ipk
-Size: 847
-MD5Sum: 0d9ae9ff42f87b3f1b0eb84a9f28f48f
-SHA256sum: 128af1c6ac544dd77886aa0345e40159310553304fc43851598022fb52a9a899
+Size: 849
+MD5Sum: 643fad7bf5cafbe6944460c07c4e6d0b
+SHA256sum: b2658c89bc0ba8f7b5771d5a4b9e3482fb43d62aff786b6899e1b78eeb2f6216
 Description:  Kernel support for USB3 (XHCI) controllers
 
 Package: kmod-usbmon
@@ -1220,8 +1220,8 @@ Architecture: hisilicon
 Installed-Size: 184
 Filename: kmod-usbmon_3.0.8-1_hisilicon.ipk
 Size: 998
-MD5Sum: 9ad2a8a1b2fc8ff0c0ba63b55a193755
-SHA256sum: 7aba02760d261369fba4f0ab09e24113bbd18ddf3e7e7efe43addeb16defe31a
+MD5Sum: 87fa2f8c56b5f2258821fa157b1734dd
+SHA256sum: 09a18637e581f16ab5850cc78f4449eb2a9ebb29cd981f79c95763d816f2d5cb
 Description:  Kernel support for USB traffic monitoring
 
 Package: libblobmsg-json
@@ -1232,11 +1232,11 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 3197
+Installed-Size: 3196
 Filename: libblobmsg-json_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_hisilicon.ipk
-Size: 3977
-MD5Sum: 466734265a2183fcbf4f83f21a4a9dc0
-SHA256sum: 80d001642997e04f217bcb0fb3052e629e8adfd8149f4a09ad09e09f422b80a0
+Size: 3970
+MD5Sum: f3c14ab43b3e4493b2af3db32c068719
+SHA256sum: 741ba2322104313c3f923b4ac1a992212667091847ae09118e70cb2bb5cdc1f7
 Description:  blobmsg <-> json conversion library
 
 Package: libcurl
@@ -1248,11 +1248,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 78835
+Installed-Size: 78840
 Filename: libcurl_7.40.0-3.2_hisilicon.ipk
-Size: 79568
-MD5Sum: 82a70996974163e5925de14c62147bc4
-SHA256sum: 49ff73aa0d3ae4811d24b603f037ec9b457ae039ab5a3cafb59a4e54d479e8ea
+Size: 79541
+MD5Sum: 8fcaa7d5750027b6175fa52a3f09f787
+SHA256sum: 9962371c8b34a8430ad6539444d143d8db469b3eaa54cc985dbc68e79dccfc2c
 Description:  A client-side URL transfer library
 
 Package: libgcc
@@ -1264,11 +1264,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 21716
+Installed-Size: 21715
 Filename: libgcc_4.8-linaro-1_hisilicon.ipk
-Size: 22373
-MD5Sum: 44a0b0d9269562a63e7a83f0746f53aa
-SHA256sum: 9978a105a39779cdd79f27446fbd75293607be53a2c0919e6e42fc92c32f13e9
+Size: 22368
+MD5Sum: 8058130f62ee8cdf0ec53b8d19b2455b
+SHA256sum: f7bb11dd08737e763fabbd4bb87251b66054b4d40e916a92e6ffd0c810318c2e
 Description:  GCC support library
 
 Package: libgmp
@@ -1278,11 +1278,11 @@ Source: package/libs/gmp
 License: GPL-2.0+
 Section: libs
 Architecture: hisilicon
-Installed-Size: 179675
+Installed-Size: 179672
 Filename: libgmp_6.0.0-1_hisilicon.ipk
-Size: 179924
-MD5Sum: b18d65b1a1eef48c005c1850b6c9737e
-SHA256sum: 1ccc617bbc774b9953faae743cd0f1f5554fabb8aac5351d0d631c4cfea7e895
+Size: 179936
+MD5Sum: e91a9dcb802f26653d99965d12086cc9
+SHA256sum: f72985889ba3b4ddb2dd3cacd269d8805a2931e3e145e9a50defe4f6b2b14b30
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
 
@@ -1295,9 +1295,9 @@ Section: libs
 Architecture: hisilicon
 Installed-Size: 17082
 Filename: libip4tc_1.4.21-1_hisilicon.ipk
-Size: 17795
-MD5Sum: 7efe6c062cfb1f3b9ecc803482afae99
-SHA256sum: 8d56df22f0b537bbf4a043c3f368692855c65608afc71f8c0a1e092d14c6e7b8
+Size: 17774
+MD5Sum: 7655d6436e7e0833f818a3cb45829411
+SHA256sum: 1a0e137ed5af6901cfa74580648d8d0aac639ba1201536171b554f1b93abf8f2
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc
@@ -1307,11 +1307,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: hisilicon
-Installed-Size: 10804
+Installed-Size: 10805
 Filename: libip6tc_1.4.21-1_hisilicon.ipk
-Size: 11517
-MD5Sum: f1ea56f3c2ef1399f0bc3890c06f1ce7
-SHA256sum: 7e92684f362a1cc2a9a09cd1461b4acdfef8f705b8be89636b435d75b2646e5a
+Size: 11521
+MD5Sum: 02d2f899cdf85e24472401087be18ee3
+SHA256sum: ac8a9710f1f7cdc10353046936f2130a8f71d079f9fe3681210c4e31328d3746
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiptc
@@ -1321,11 +1321,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: hisilicon
-Installed-Size: 1024
+Installed-Size: 1023
 Filename: libiptc_1.4.21-1_hisilicon.ipk
-Size: 1751
-MD5Sum: 01eb886691eea45e1d28e1dfeeffb52d
-SHA256sum: fd3bcd4ded42e097514cef6aad71b6312903dce9e7143d0e19de4662dce581aa
+Size: 1755
+MD5Sum: 3fcae3a7b37adb11b2c2297ce1e6bbda
+SHA256sum: 7a71f9829c462cfff9ecf57f4447f1c000457840e5e9e2cd6cc370595df725a1
 Description:  IPv4/IPv6 firewall - shared libiptc library (compatibility stub)
 
 Package: libiw
@@ -1338,9 +1338,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 11135
 Filename: libiw_29-5_hisilicon.ipk
-Size: 11885
-MD5Sum: 5f2ecc87256ba6569e2ffe1d85f3b5a4
-SHA256sum: 4b65c66f9f0a0aa7deba6b918661d0524b4ef36ec59b15c9322450e275ae5120
+Size: 11889
+MD5Sum: 650ec957b56bf2b404a14bb8b4a760b3
+SHA256sum: cf0cd3240d75d45e1433044ea4f69d8126f0e4a4bfeceed60d16fa8cfd5c5b02
 Description:  This package contains a library for manipulating
  "Linux Wireless Extensions".
 
@@ -1352,11 +1352,11 @@ License: GPL-2.0
 Section: lang
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 6125
+Installed-Size: 6126
 Filename: libiwinfo-lua_2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371_hisilicon.ipk
-Size: 6861
-MD5Sum: 00a297956af08565bfb657d1e8a0aa73
-SHA256sum: 8cee176504966c9b685ede99f21d8ed4bdb46eb67f1097b693b2b10c4aa22881
+Size: 6870
+MD5Sum: 17658eebe1a731a6ae4a196c27f17dc0
+SHA256sum: 2b5edc4492616457d53a643f0d0367d57daf335714f9420a81b5031b6e418941
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -1370,9 +1370,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 21887
 Filename: libiwinfo_2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371_hisilicon.ipk
-Size: 22629
-MD5Sum: d3cdf9c29b7a4a8a7cc52d025bde952e
-SHA256sum: b8febac1d0c87dbdcc5c7351714d7bcd3997c9dc9a73b073b4c581cb4708ee62
+Size: 22615
+MD5Sum: dc9aa3bfe35894c24f3230055559c507
+SHA256sum: 37e459766a5c292b1561bc4170d06c7cb9f45a8f17bb992bf60807da9960b194
 Description:  Wireless information library with consistent interface for proprietary Broadcom,
  madwifi, nl80211 and wext driver interfaces.
 
@@ -1385,11 +1385,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 14106
+Installed-Size: 14110
 Filename: libjson-c_0.12-1_hisilicon.ipk
-Size: 14827
-MD5Sum: 76566b1d0b347c377a0c1d006ec97512
-SHA256sum: e9ae9e57f657ef7709d336feb2d99d4f4851af421f92dccd96b32cfcb5c07dd0
+Size: 14834
+MD5Sum: 479404bfdeb275055a3357a9d278286b
+SHA256sum: ecedda84900bf4df2c87c842876734f88d95c844d520521783bdde9c7c23496b
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script
@@ -1400,11 +1400,11 @@ License: ISC
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 4288
+Installed-Size: 4289
 Filename: libjson-script_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_hisilicon.ipk
-Size: 5027
-MD5Sum: d0ac74bc0a144268152418762c709359
-SHA256sum: 4afea7c292e1a6c5b8bf8f83046c11bb78d6ac0469ff71e0193b46c2dbc602b9
+Size: 5024
+MD5Sum: f28f2e5dd46b7ccd1ba72139fd9ff93a
+SHA256sum: b47b38bc865b0363cc71634f14203ddaaa108f9292746116c9060bbb767a9377
 Description:  Minimalistic JSON based scripting engine
 
 Package: liblua
@@ -1416,11 +1416,11 @@ LicenseFiles: COPYRIGHT
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 59981
+Installed-Size: 59983
 Filename: liblua_5.1.5-1_hisilicon.ipk
-Size: 60665
-MD5Sum: 21fdcf6a6db44f1a69d1a648979c4369
-SHA256sum: 60e94dbf9613c8806e7682df556a302e62c93e23e3073a87508a099c1fee2e78
+Size: 60638
+MD5Sum: a80e8fbd033cc74f4ddb565ef61fa3cc
+SHA256sum: ddc54b16cf0cef35951c3a0bdc50d0d42e151f2e23d78f4b20f11d62aa6bdc7b
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -1434,11 +1434,11 @@ License: GPL-2.0+
 LicenseFiles: COPYING
 Section: libs
 Architecture: hisilicon
-Installed-Size: 235215
+Installed-Size: 235212
 Filename: libnettle_3.1.1-1_hisilicon.ipk
-Size: 234979
-MD5Sum: 5905b16d91a7f85c0d07fb4b33ef404b
-SHA256sum: b81c4418dcd38f6acee4b9ef489532ab52efbbd99d4919d5d8771a0bb4ba5ac6
+Size: 234957
+MD5Sum: 7356895a5602d4a4f9a7503fe4e04667
+SHA256sum: 891b20b2d53d58c21b365cb50f5099629f6da89cce04603aa95bd09388df6ecb
 Description:  GNU crypto library
 
 Package: libnl-tiny
@@ -1449,11 +1449,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 11621
+Installed-Size: 11622
 Filename: libnl-tiny_0.1-4_hisilicon.ipk
-Size: 12347
-MD5Sum: e06ef23a7aff7017548c11817b41753c
-SHA256sum: 73f0d61e9cc87eb84e1a34a83837463793976e72a3f58cf4b71100abbc2dc2b3
+Size: 12343
+MD5Sum: 8c91a383ffc90518d954df26b549c85d
+SHA256sum: c67d046f290c517ed419040a382aa93da1f0dbae99e82746473e45e127f05a87
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl
@@ -1464,11 +1464,11 @@ License: OpenSSL
 LicenseFiles: LICENSE
 Section: libs
 Architecture: hisilicon
-Installed-Size: 638844
+Installed-Size: 638834
 Filename: libopenssl_1.0.2n-1_hisilicon.ipk
-Size: 632099
-MD5Sum: 75c9b31c5e7662f08807f06b35522cd8
-SHA256sum: c7bf957403f2cd7004859a0cfe1103656a66a94d3db2208bd0fb16e2ccaa8594
+Size: 632072
+MD5Sum: afa12fbd9bb7de0bedbcadedab725d94
+SHA256sum: c51f81bafac0f86dea84f2f58792f46a4707c2d8324729f3d750189cf21fc14a
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -1483,11 +1483,11 @@ License: BSD-3-Clause
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 84946
+Installed-Size: 84944
 Filename: libpcap_1.8.1-1_hisilicon.ipk
-Size: 85493
-MD5Sum: 1c9cff0221988afc689d295b81b75dee
-SHA256sum: 5112711bba62cbb5e009a10438a484cf7d5b14c7b5b9f7c58d71ccc8e7718a91
+Size: 85467
+MD5Sum: ffa9855958f0a77056275af69e2f9485
+SHA256sum: 63c63beac6324e46c6eee1da2be8196e3b7c21952d87796ec24c9b91312c0516
 Description:  This package contains a system-independent library for user-level network packet
  capture.
 
@@ -1498,11 +1498,11 @@ Source: package/libs/polarssl
 License: GPL-2.0+
 Section: libs
 Architecture: hisilicon
-Installed-Size: 119575
+Installed-Size: 119578
 Filename: libpolarssl_1.3.17-1_hisilicon.ipk
-Size: 120304
-MD5Sum: b32ad937353a93ae01798e3706f9eafa
-SHA256sum: bf3359e1415a2d9a9bebfd8e0a8819bbf41107ac2e9fd1edd607c0aa3aa01040
+Size: 120309
+MD5Sum: e7258089dce56ad110a0bb86b2a8f919
+SHA256sum: 2fbf8c6484f59eb77299802b3fda8e8024e67c5685fcbe49981abaf9421017f9
 Description:  The aim of the PolarSSL project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the PolarSSL library.
@@ -1517,11 +1517,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 27459
+Installed-Size: 27454
 Filename: libpthread_0.9.33.2-1_hisilicon.ipk
 Size: 28241
-MD5Sum: a839e8b29046886e0bd0f137ce15f692
-SHA256sum: e3a3e3f8bcbec286ca10cc58e26a86491e6811733e07af3cd9acff7f84cb56c2
+MD5Sum: 2184abf142edb280f67b3b054315aec6
+SHA256sum: feaaa70955ad0bd28178b76ed5660b6d39cd1b0152bce22927cf6ec872ee5bad
 Description:  POSIX thread library
 
 Package: librt
@@ -1534,11 +1534,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 4274
+Installed-Size: 4271
 Filename: librt_0.9.33.2-1_hisilicon.ipk
-Size: 5037
-MD5Sum: e305eaf058414c60d8feec6cf0f85d84
-SHA256sum: 634a812d64e2b69dadc0943dcbf1a4c78d305787a48ffbc2e0914f09d3a24a12
+Size: 5036
+MD5Sum: 2c15ce10a7cfd548a7d5309d7c0c7af1
+SHA256sum: c972e1c8139fb6d4a2527ececd8908e8f50c5042c58680c0a74df364629a0e19
 Description:  POSIX.1b RealTime extension library
 
 Package: libstdcpp
@@ -1550,11 +1550,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 208752
+Installed-Size: 208755
 Filename: libstdcpp_4.8-linaro-1_hisilicon.ipk
-Size: 207539
-MD5Sum: 39733634478e1f9965a40ff2cb96e2ab
-SHA256sum: 26824941455379cf5dd429b68d9fe07167dd2ff53e4d7a96a6794edc845cdfee
+Size: 207459
+MD5Sum: 13b48534851c9a26470ce7b54edc7e1e
+SHA256sum: 411d1f4abed2e74bfc0ba8d6612aff6ce346e2df683225e24c4660911759aa47
 Description:  GNU Standard C++ Library v3
 
 Package: libubox
@@ -1565,11 +1565,11 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 16061
+Installed-Size: 16066
 Filename: libubox_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_hisilicon.ipk
 Size: 16723
-MD5Sum: f620c0469bbed851d2914e74fd9fd63a
-SHA256sum: 613d57751b694d23413c6969c8d809749e2f9184a89014707b891b416ce5824c
+MD5Sum: 8ca9ca3319653d09a0d065dd4d0d9070
+SHA256sum: 16766ffa9028ef8a44755c4a1283499b7ac9260e120d9ec42bdb8c9fd1f94d48
 Description:  Basic utility library
 
 Package: libubus-lua
@@ -1580,11 +1580,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 5191
+Installed-Size: 5193
 Filename: libubus-lua_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_hisilicon.ipk
-Size: 5943
-MD5Sum: 1f64421e631a0b145eafdf94f9c7d0eb
-SHA256sum: 35c0af3adceff2465e4f1527630b9dc9d44cae7d0c2d8e0712ad76fb10215053
+Size: 5945
+MD5Sum: 30b7ad871634e417bd82e334e1fd0d45
+SHA256sum: 3dad55f421adb038bbb17aa0f79bbac5ed3593ead5f1fabc572e8b34c3679778
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus
@@ -1595,11 +1595,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 8132
+Installed-Size: 8133
 Filename: libubus_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_hisilicon.ipk
-Size: 8918
-MD5Sum: 2aa4a00ddb61ef6482e11d8e49580671
-SHA256sum: 094101dec1b50dd0b85c53225e47374b7845527c0a1b6baf19004a464d440962
+Size: 8907
+MD5Sum: 7eaffeb070ac0906cd0ce0a52b12e36b
+SHA256sum: 4deb229ec0ce1847031201405402d6f5e5b46139ad47bf7b104c8033759bc6d7
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -1610,11 +1610,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 5516
+Installed-Size: 5514
 Filename: libuci-lua_2015-08-27.1-1_hisilicon.ipk
-Size: 6225
-MD5Sum: 7d630aaac2585e5b70b1b2705d94ac79
-SHA256sum: 920364bde70cbe177ea3c3491ec84675d4ee7aa05e2a255dc89bbdff4390c494
+Size: 6231
+MD5Sum: 74037576ae32c62068bc56807d67b535
+SHA256sum: 8de73d3756bde14fc6d6eb4060a16c4e1f19c4c78bdd686b4ce39d7da5397f10
 Description:  Lua plugin for UCI
 
 Package: libuci
@@ -1625,11 +1625,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 14836
+Installed-Size: 14837
 Filename: libuci_2015-08-27.1-1_hisilicon.ipk
-Size: 15542
-MD5Sum: 27cdc4585ae462616dd53d7d0208eae3
-SHA256sum: aa1db1c37af497fde75f44a7ad12746061d8a4a4471ce889ab5965c0eb48b36c
+Size: 15552
+MD5Sum: dbbba3db4934964a01eba627071fe0f4
+SHA256sum: a22325c53e5a4dd699119941de1bb233a3f498169822e92c09f761048a97aae7
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libusb-1.0
@@ -1640,11 +1640,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 23785
+Installed-Size: 23784
 Filename: libusb-1.0_1.0.19-1_hisilicon.ipk
-Size: 24526
-MD5Sum: c23ead05e62bbbbafb799baf0d079dc8
-SHA256sum: 6364526d995e528fcc8a95a0b74f7cd462be142c5172c6308cb6c69a0d398130
+Size: 24549
+MD5Sum: ece165f73a6244248f1130cf3580c79a
+SHA256sum: 0d857b47c57f9ab9ca2c0d66f5f7b8d3164801798ad866f2dd63c246e54b3f8f
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
 
@@ -1658,9 +1658,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 5505
 Filename: libusb-compat_0.1.4-1_hisilicon.ipk
-Size: 6289
-MD5Sum: 8900101b61e4c1d7d95394f8ac0964cf
-SHA256sum: dacd0b5e6b00ff2c062d964e0ee05883f8a0ecd90b2ccbd082cb76a833f61118
+Size: 6287
+MD5Sum: f0a9895d33c627ef8c4cfbe291fb108c
+SHA256sum: 01cb636680b416287551b1abdf9932aac9c146188e023e46be833ea9b540a72a
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
 
@@ -1672,11 +1672,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: hisilicon
-Installed-Size: 4983
+Installed-Size: 4981
 Filename: libuuid_2.25.2-4_hisilicon.ipk
-Size: 5862
-MD5Sum: 797bbeba4f7dd8a9b06407dee8a3aa64
-SHA256sum: c3bd1ab8c126a310613b4a7684370cf5b0c7df6fcbab0237232c0b4acc9b67fe
+Size: 5859
+MD5Sum: 473d604537b92cd7ceaf39317911be0b
+SHA256sum: a973df1631cbe514cf7e8318477915dcfa8b68c944c095e88041686328e46396
 Description:  The UUID library is used to generate unique identifiers for objects
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
@@ -1689,11 +1689,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: hisilicon
-Installed-Size: 32743
+Installed-Size: 32744
 Filename: libxtables_1.4.21-1_hisilicon.ipk
-Size: 33390
-MD5Sum: 7bebb5313964bda941c7543da50a30e0
-SHA256sum: 172eddb093059497148c2c746dc7c36f5d0c50f659f0e8711c1640d7da3a9863
+Size: 33392
+MD5Sum: 70112be5ddd34dd1f9d71e31f28d4e2f
+SHA256sum: 3107666d03885e69bc268db056e5deb24aaf37e15e48eecd81ee2809b7fcbf6f
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: logd
@@ -1704,11 +1704,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 8992
+Installed-Size: 8991
 Filename: logd_2015-11-22-c086167a0154745c677f8730a336ea9cf7d71031_hisilicon.ipk
-Size: 9771
-MD5Sum: 39562895671efb379b91e3f3a39ae4dd
-SHA256sum: 0c7190417cde27dd48d67aaedda629f2dc7ea66a74de479ec872a34d383a6794
+Size: 9773
+MD5Sum: ef7d28116a0e49e2d0ab17840ff44b22
+SHA256sum: 4e64503f126b05e031af3445174870bc458c2e92c3b68d548af7f0814345a9bc
 Description:  OpenWrt system log implementation
 
 Package: lua
@@ -1720,11 +1720,11 @@ LicenseFiles: COPYRIGHT
 Section: lang
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 4184
+Installed-Size: 4188
 Filename: lua_5.1.5-1_hisilicon.ipk
-Size: 5003
-MD5Sum: 18247e3edadd359baa2d831cd4b2696e
-SHA256sum: 0d33d02d294bffb079618b554236980fa9e84f919c16e9589f72e9072a072f4a
+Size: 5009
+MD5Sum: bdb7f4fc16fc4d1454b3ab40d59d4644
+SHA256sum: 16c9449b0c5495720d6f0b8e84b4f9b19b5992b5e38d91c84648cff6628b8db7
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -1737,11 +1737,11 @@ Source: package/system/mtd
 License: GPL-2.0+
 Section: utils
 Architecture: hisilicon
-Installed-Size: 12649
+Installed-Size: 12652
 Filename: mtd_21_hisilicon.ipk
-Size: 13354
-MD5Sum: 0f15e7c6ab4b52c5feb81cbf3705d2b2
-SHA256sum: e970004032d524cc6779dfb568760d798cabbfe3a7677f9818041b07eadd2a50
+Size: 13349
+MD5Sum: 57a1194ab6a7e2821e19c0c8f44274ed
+SHA256sum: 7a5033a791f976d23590fee15e1f635de825bd9519d5fea492b15c7be370ea9e
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -1753,11 +1753,11 @@ License: GPL-2.0
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 59883
+Installed-Size: 59886
 Filename: netifd_2015-12-16-245527193e90906451be35c2b8e972b8712ea6ab_hisilicon.ipk
-Size: 60713
-MD5Sum: b0f1155bf9ea72cf4a7a97276fa7f0f8
-SHA256sum: b71eef26d6512cc857223e150397bd502b76349999849cca8afc569cdd586f9c
+Size: 60706
+MD5Sum: a60db0b0f410f9983e7b9ffa424b07a2
+SHA256sum: 0065db91eb949b473d46d84741d2dbf7186e8b3f6ec1c31ef150eda3ba8306e9
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: odhcp6c
@@ -1768,11 +1768,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: hisilicon
-Installed-Size: 22777
+Installed-Size: 22781
 Filename: odhcp6c_2016-02-08-dc186d6d2b0dd4ad23ca5fc69c00e81f796ff6d9_hisilicon.ipk
-Size: 23556
-MD5Sum: bfe7f4444f0edca3aa96c89a4ab91ba0
-SHA256sum: ee993082f5d895d7bef2d98f56a9660f5a0edab0431c096b585653f00743c688
+Size: 23583
+MD5Sum: 3ef622a6eab888b9d4ce4b2caf7d8820
+SHA256sum: de7ca62e6f16bdc56a7455ef27ef032628b59d8d163b428262d73d20920bf269
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd
@@ -1783,11 +1783,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: hisilicon
-Installed-Size: 30167
+Installed-Size: 30175
 Filename: odhcpd_2016-10-09-801cfeea100ca7b211c9841f0fcb757b17f47860_hisilicon.ipk
-Size: 31006
-MD5Sum: 84db073d89aad37cbbfa75fc88b06237
-SHA256sum: 0c18d10caed24262ec8ba8653fd5333b62ffa172a13eb629ac29fc334dafb8da
+Size: 31021
+MD5Sum: 27376d3fe45115a5c6c84e46765e32fa
+SHA256sum: 07c5cd95064a53fe7c263c2fd87ada655fa87e02615a79b5789dfb6f8e66971d
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -1804,11 +1804,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Mirko Vogt <mirko@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 180530
+Installed-Size: 180537
 Filename: openvpn-polarssl_2.3.18-1_hisilicon.ipk
-Size: 181120
-MD5Sum: 0afce75aad0c775fe90bbc128f848b20
-SHA256sum: 23298dd212e1302e2793e26cc58be224635187b2d142d8053d74810890de16ec
+Size: 181136
+MD5Sum: 8fd014c144ffcb1b43696c2f4e7666c8
+SHA256sum: c29a1397fbf294514c07e3fc5f3bb0eab0f1ea3048d3b4f5edd1b265224e883c
 Description:  Open source VPN solution using PolarSSL
 
 Package: opkg
@@ -1820,11 +1820,11 @@ LicenseFiles: COPYING
 Section: base
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: hisilicon
-Installed-Size: 57123
+Installed-Size: 57119
 Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9_hisilicon.ipk
-Size: 58025
-MD5Sum: 84e38541466ff963e71ed4724ddc6829
-SHA256sum: f7053e0b3bfba626d03b4a795887f205fbc2d5ec47f61a9310ee966eb037a405
+Size: 58003
+MD5Sum: 3cb4a02a8aecef18b200505c2031da9e
+SHA256sum: b3c3569e9b4310fcd23d9dd45791cc280472d7a734a9253acb299b45766b5aab
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -1841,11 +1841,11 @@ License: BSD-4-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 104824
+Installed-Size: 104837
 Filename: ppp_2.4.7-6_hisilicon.ipk
-Size: 105493
-MD5Sum: 62052b9448b3242a259eb6cc43dc06fb
-SHA256sum: fdbb84f578f6763aad7e592465ee0e99c1537d7388b1d4e3c57caccabd3ed7dd
+Size: 105483
+MD5Sum: 5dc71422b93505c526b04301f316ce7d
+SHA256sum: 5d918e2248775d5b43c6e0533acaba9fe8c8fd086a874cf38f547b19a62ff392
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd
@@ -1856,11 +1856,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 34051
+Installed-Size: 34046
 Filename: procd_2015-10-29.1-d5fddd91b966424bb63e943e789704d52382cc18_hisilicon.ipk
-Size: 34711
-MD5Sum: af3b3be3a8f8d8688dfd272c1873402d
-SHA256sum: dd199dc48b9c2cf21942b37eba1c3e3598e373d7bad378cb02a4b2b7e24e4cdb
+Size: 34718
+MD5Sum: d8af2a7aa6c5095b1442dc257556f670
+SHA256sum: 7cabd72ccff00350f18034ecc40c6158f75afe99f0fbdd6eea626bd9b860e44a
 Description:  OpenWrt system process manager
 
 Package: r8188eu-firmware
@@ -1870,11 +1870,11 @@ Source: package/firmware/linux-firmware
 Section: firmware
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 8304
+Installed-Size: 8305
 Filename: r8188eu-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_hisilicon.ipk
-Size: 9080
-MD5Sum: 3e55aeb2ca8d50962155fc153f73c418
-SHA256sum: 301b8d5601255b6a5726d57a24cbdedae5ad55f7094a02ff83be2376102d1eab
+Size: 9082
+MD5Sum: 4e3fce2555382f17e7d00b3473a3590b
+SHA256sum: d871c07b08f1b35192525a0533478d78bd3b1da0bb81641572497dd79feecde5
 Description:  RealTek RTL8188EU firmware
 
 Package: resolveip
@@ -1888,8 +1888,8 @@ Architecture: hisilicon
 Installed-Size: 1551
 Filename: resolveip_2_hisilicon.ipk
 Size: 2420
-MD5Sum: 907b342c245e679cc530f82d1f34e712
-SHA256sum: cc783e8279aae36500fafc663a7e982c48f86bdab1ed23c7daf20e69d03780cc
+MD5Sum: a315942584888f46b69a60a47426dfb3
+SHA256sum: d72d71fcc9973dae1ad8d24fb8e9d43120cf3658aeb20fbfe3d60ec7fd664d30
 Description:  This package contains the small resolveip utility which
  can be used by scripts to turn host names into numeric
  IP addresses. It supports IPv4 and IPv6 resolving and
@@ -1904,11 +1904,11 @@ License: ISC
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 17473
+Installed-Size: 17481
 Filename: rpcd_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_hisilicon.ipk
-Size: 18234
-MD5Sum: 0bd80ecfd56f49530f3b74e4b997ef45
-SHA256sum: 859ea06fcbc516a472dc1d04700e61afd7d1a16ed58fe5c41a4bf57508579865
+Size: 18250
+MD5Sum: a1dcc65187c10dbfb2d2c6eaf36ff71c
+SHA256sum: a36bb1427db296808477e2a2c650970f4fd4147a5daa9271d993f2bc58e5cbb0
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -1919,11 +1919,11 @@ Source: package/firmware/linux-firmware
 Section: firmware
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 2813
+Installed-Size: 2812
 Filename: rt2800-usb-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_hisilicon.ipk
-Size: 3555
-MD5Sum: e3077c15bcb6278629f67c35e7898c69
-SHA256sum: 1406d456011961cad4b76fe65cae9b93733ddafc21ee7d789a35ece39c862cf4
+Size: 3556
+MD5Sum: 9a082ccd8d278512ba22cf762fd2348e
+SHA256sum: c8c7e9c672cd98efa623791adef6d49636d0640d51476f62fcddcb61d5006fcc
 Description:  Ralink RT28xx/3xxx USB firmware
 
 Package: rt73-usb-firmware
@@ -1935,9 +1935,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 1319
 Filename: rt73-usb-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_hisilicon.ipk
-Size: 2060
-MD5Sum: 8c4e38e8e458d70e9153eabf9713329f
-SHA256sum: 3550e3f66894407f01d1fe2875517c1c064832cf25eebc04812d6c9759fbda3d
+Size: 2066
+MD5Sum: f964612f60321279a68804d3410fb8f5
+SHA256sum: 1ad93d706346b6293b3e524ba1070a6db905cab67fd1efa14b9475a3a073da27
 Description:  Ralink RT2573 firmware
 
 Package: rtl8192ce-firmware
@@ -1947,11 +1947,11 @@ Source: package/firmware/linux-firmware
 Section: firmware
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 21258
+Installed-Size: 21259
 Filename: rtl8192ce-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_hisilicon.ipk
-Size: 21983
-MD5Sum: 906bf5f659aee65e6017f57b7d7fd8af
-SHA256sum: 17578341ca192b4314a412ecdb8365e5c2890eae6f83863254be875c0a891a8c
+Size: 21986
+MD5Sum: fee2b04245d5362e8be7fbd4b353b0ee
+SHA256sum: be58260e2d8425adccd0f4af94d54704c0794e15b06361d4131a41f45ab5d72f
 Description:  RealTek RTL8192CE firmware
 
 Package: rtl8192cu-firmware
@@ -1963,9 +1963,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 16582
 Filename: rtl8192cu-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_hisilicon.ipk
-Size: 17143
-MD5Sum: f903357c7b9b941ebb98a3bb1a547cdc
-SHA256sum: 188bc96a4ee01a845c3243f92f0d3daf68189e646d182e3fcb724d9c9b05b60f
+Size: 17234
+MD5Sum: 7b772a2b9a3c5d31501c661955054c96
+SHA256sum: b2ea77e6aadf264073c8ae4cfc4bf9f5b0ce2ec343cbf611e76fa8b2c78348aa
 Description:  RealTek RTL8192CU firmware
 
 Package: rtl8192de-firmware
@@ -1975,11 +1975,11 @@ Source: package/firmware/linux-firmware
 Section: firmware
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 13531
+Installed-Size: 13530
 Filename: rtl8192de-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_hisilicon.ipk
-Size: 14282
-MD5Sum: 2e79c93d6e93847dc8c604f05a3a5b10
-SHA256sum: f42137613f1611feef96a5a0d69e7ba3fe342fad0715ccacf43a30edd3621f7f
+Size: 14283
+MD5Sum: 7839cf07b13e131f0f7e49469e98dcdb
+SHA256sum: 13bb424dcab28e455b383ee3cd208cd306824b99b92616dcd1da4673e7d61066
 Description:  RealTek RTL8192DE firmware
 
 Package: tcpdump-mini
@@ -1990,11 +1990,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 137200
+Installed-Size: 137204
 Filename: tcpdump-mini_4.9.2-1_hisilicon.ipk
-Size: 137869
-MD5Sum: e055a7ab71e5b37bfd27168e949ec3ca
-SHA256sum: bbf5a738d37fc517cea56a9d5c91c7106d88484881113996d519e9d11ed4db12
+Size: 137948
+MD5Sum: 45e175ed93794061a38b003fb8386359
+SHA256sum: 67799a1164f9ec0f8996ddc43f30e7f75b553f144da729f419456cfc23cacdb9
 Description:  Network monitoring and data acquisition tool (minimal version)
 
 Package: uboot-envtools
@@ -2005,11 +2005,11 @@ License: GPL-2.0 GPL-2.0+
 LicenseFiles: Licenses/README
 Section: utils
 Architecture: hisilicon
-Installed-Size: 13615
+Installed-Size: 13613
 Filename: uboot-envtools_2014.10-2_hisilicon.ipk
 Size: 14315
-MD5Sum: b5db4822799c956cfa997cbd4c2661b4
-SHA256sum: 134b6eef60a92eea821e2f34d2a0192eb7b91a43681346e2d5dc8284e2b15f04
+MD5Sum: c0e689275de62d571ee4282545b7f697
+SHA256sum: b2541603d0899b5f3179ef5121ca9c10f303147e7d59f8f9d95eb75643e042f2
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 
 Package: ubox
@@ -2020,11 +2020,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 12963
+Installed-Size: 12965
 Filename: ubox_2015-11-22-c086167a0154745c677f8730a336ea9cf7d71031_hisilicon.ipk
-Size: 13722
-MD5Sum: 7db3fccc66bb967c8ba5624e8b5a2f67
-SHA256sum: dd674f3cf8abed5e847c646d3818d44fd06923410bfa9313f738d7ed60bba7cc
+Size: 13732
+MD5Sum: 021844cc96321ee554dbbc4d1c92a297
+SHA256sum: eaa4da680345e0e70714f5b34203cee8d59145e5a844af086ea9224bb1aeb9c7
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
@@ -2038,8 +2038,8 @@ Architecture: hisilicon
 Installed-Size: 3767
 Filename: ubus_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_hisilicon.ipk
 Size: 4555
-MD5Sum: 4198a90b82eb7b843d648918e82ac4bb
-SHA256sum: 2606fa8080a42a773889f06702e4fee1f43c4eeb8dfea087b0264c1608d6ac59
+MD5Sum: 5f16fe2d1ca5f87cf1e0769c90ce1efe
+SHA256sum: 1f88fa531726c944f053aca8cb7db277e809ac40a79c89e4030b53d8f35c7a03
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
@@ -2050,11 +2050,11 @@ License: LGPL-2.1
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 7038
+Installed-Size: 7037
 Filename: ubusd_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_hisilicon.ipk
-Size: 7812
-MD5Sum: 7b07b6a6dd43d9ebf1f97301691efebf
-SHA256sum: 4b8f037af86d1385d8da2fb2495cb54ab1dce0b16ea803b3af530a2e0aa02b76
+Size: 7820
+MD5Sum: 3b06c213aabe6c5ed10c39354ff21333
+SHA256sum: ce94372086a9643180a543ff88d18923e675bc8721914829a88b6b1d8c4f6821
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -2067,9 +2067,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 6619
 Filename: uci_2015-08-27.1-1_hisilicon.ipk
-Size: 7360
-MD5Sum: 384ce3268bfa67c7debc3f1bf232434c
-SHA256sum: 551da4a16fd06222b85a3c971df6a4738959622ba8b2a848328bbbf8a25b7a01
+Size: 7369
+MD5Sum: 1e35d810635c2f7d42d507a616aca291
+SHA256sum: d6f7fde93a82f22ce0486310b1313aab89b46b561aafd0c45ffd3b503c7eba25
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uclibcxx
@@ -2079,11 +2079,11 @@ Source: package/libs/uclibc++
 License: LGPL-2.1+
 Section: libs
 Architecture: hisilicon
-Installed-Size: 55274
+Installed-Size: 55276
 Filename: uclibcxx_0.2.4-1_hisilicon.ipk
-Size: 55661
-MD5Sum: de4ab2fa9dbf76cf5bc2933539992b22
-SHA256sum: 08417b5d7302b25f3a253b40373f6038955b5c4d731d10d8c83ef0f77c734131
+Size: 55675
+MD5Sum: 063f0cccb643850809916bd9cc643307
+SHA256sum: ebbba813bb40a440dd5eebddcd05421de2ca0d39bed6391ac0bd48e151008afb
 Description:  C++ library for embedded systems
 
 Package: uhttpd-mod-ubus
@@ -2094,11 +2094,11 @@ License: ISC
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 5645
+Installed-Size: 5643
 Filename: uhttpd-mod-ubus_2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7_hisilicon.ipk
-Size: 6460
-MD5Sum: 160f843bbeb3b2096d51d9aa494bc7a0
-SHA256sum: 5ac8e340271c7efb3a88845457c9b1338e527fc848e0933a7d7a89af58417572
+Size: 6461
+MD5Sum: 4af0da312fc8b59a44407fc80e57cc60
+SHA256sum: 4121c0b033b5daeba761c50bc1261c93ee4bb1d15b50dde9885d10cf713e1468
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2112,9 +2112,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 21877
 Filename: uhttpd_2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7_hisilicon.ipk
-Size: 22710
-MD5Sum: 6627e5c6159857272f2aab342d068dd0
-SHA256sum: 2eefc819f7c5571a66c04c28b296e3026b8dbc8217d7338bda74153b6675aee5
+Size: 22706
+MD5Sum: 72ce07b6171298a32b0e507d8a41e001
+SHA256sum: b0b02abd58da831ae36de106acdf672d889b5858bf9725bca32acd7e3b106f71
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -2127,11 +2127,11 @@ License: GPL-2.0
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 12075
+Installed-Size: 12074
 Filename: usb-modeswitch_2014-08-26-993a9a542791953c4804f7ddbb3a07756738e37a_hisilicon.ipk
-Size: 12859
-MD5Sum: 7ee973fcc492a63b0f3986fc345901b0
-SHA256sum: 13a8cd23249cad0c27b32f70a501594686db0ff975d230769dd60d914d7a20bd
+Size: 12860
+MD5Sum: 456eeeee58385c5c6372855143e6bcc7
+SHA256sum: 841861c0f9288014bc26843aae4ca0ad369f8bddeefd85c0575b3e33da220f08
 Description:  USB mode switching utility
 
 Package: usbreset
@@ -2143,9 +2143,9 @@ Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: hisilicon
 Installed-Size: 2419
 Filename: usbreset_4_hisilicon.ipk
-Size: 3218
-MD5Sum: 92c2534acfbfc9a5c91aae0e4c388c0e
-SHA256sum: 271aa591b642358eb6af0de2596d88985d6b59d3812d6c46bd6ee1effd91e0de
+Size: 3222
+MD5Sum: 2968f771bbe7716d6beac86cb6c86e4a
+SHA256sum: 96a2ab015c00d594b6c044f70c571d7a4fa39d33e54afd5c36eb71147c18079a
 Description:  This package contains the small usbreset utility which
  can be used to send a USB port reset to a USB device -
  useful for debugging or to force re-detection of particular
@@ -2161,9 +2161,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 9437
 Filename: usign_2015-05-08-cf8dcdb8a4e874c77f3e9a8e9b643e8c17b19131_hisilicon.ipk
-Size: 10240
-MD5Sum: 9365475664ee09dac0567bfa48afa9b8
-SHA256sum: d7d5ad841e92de755da37be5cc66497c8ff3aa065ae038a5f1c7e901d7b8cc10
+Size: 10243
+MD5Sum: 03936912a9796776b50a374ef51306d2
+SHA256sum: 895623275ef0ce061be26eefe2d28d51897006bccf32d490b9defd2e514fe545
 Description:  OpenWrt signature verification utility
 
 Package: wireless-tools
@@ -2176,9 +2176,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 21931
 Filename: wireless-tools_29-5_hisilicon.ipk
-Size: 22725
-MD5Sum: adbcd1a3f4e2036a0a2963040df686c1
-SHA256sum: d4eecb29bd94ccbcc5e816e1a792715b784878bb6676459ff6bf7f928c48efce
+Size: 22653
+MD5Sum: 4e5628e46c31a5d55aaf09ab3d6fa4a4
+SHA256sum: a1941e56c847482c224156df9a27ed7de509969ba580ee291ab593716fd0faab
 Description:  This package contains a collection of tools for configuring wireless
  adapters implementing the "Linux Wireless Extensions".
 
@@ -2191,11 +2191,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: hisilicon
-Installed-Size: 275461
+Installed-Size: 275458
 Filename: wpa-supplicant_2016-06-15-2_hisilicon.ipk
-Size: 276076
-MD5Sum: 787a74c3ba9128e028669cf334cdbfc3
-SHA256sum: 720a33a05d0579ad970c45d170f325928b579d347adeea85a9f8020065d5a795
+Size: 276097
+MD5Sum: 7074e8e09807e4e37ef01dc42979d98e
+SHA256sum: cf380952acb73d0bbb939cad80361a5521e3e80b492ed6fa1d5030d9b601a444
 Description:  WPA Supplicant
 
 Package: zlib
@@ -2206,10 +2206,10 @@ License: Zlib
 LicenseFiles: README
 Section: libs
 Architecture: hisilicon
-Installed-Size: 38749
+Installed-Size: 38747
 Filename: zlib_1.2.8-1_hisilicon.ipk
-Size: 39572
-MD5Sum: 1ae1bcac74ec0c8e5a6aa6891680493e
-SHA256sum: 2eb758bfc707aabb63499057bec8986145840f3996dd38fa92dffc38ae3daf4a
+Size: 39559
+MD5Sum: 51e2ab21b092ce8da3d382922139bb28
+SHA256sum: 9bd78fafa6c0d557f31f6ee5e55ac1061d814f0511beb844269094c8ee952941
 Description:  Library implementing the deflate compression method
 

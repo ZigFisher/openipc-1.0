@@ -5,11 +5,11 @@ Source: feeds/glutinium/darkice
 Section: multimedia
 Maintainer: Artur Wronowski <arteqw@gmail.com>
 Architecture: hisilicon
-Installed-Size: 90415
+Installed-Size: 90408
 Filename: darkice_1.3-5_hisilicon.ipk
-Size: 91050
-MD5Sum: 77baf3a804c7276bae109866ed04ab24
-SHA256sum: 5ac90856b56c806ab13b1629f6e69fc57767d62c8463101e0835561c4726d5e6
+Size: 91077
+MD5Sum: d954411f84a062cbfc94dcaecb6d79b0
+SHA256sum: e5496f14842cda4aa8e2e7f55f465e21feb2ff723527a61051dd540eb57f11b3
 Description:  DarkIce is a live audio streamer. It records audio from an audio interface (e.g. sound card), encodes it and sends it to a streaming server.
 
 Package: demo
@@ -21,11 +21,11 @@ LicenseFiles: LICENSE
 Section: openipc
 Maintainer: demo@local.net
 Architecture: hisilicon
-Installed-Size: 1009
+Installed-Size: 1008
 Filename: demo_2018-12-23-0.1_hisilicon.ipk
-Size: 1751
-MD5Sum: f3fd468331f39b8731cea6e637f47288
-SHA256sum: 55a6923feb0e753ec1c5d0b68e925ca02d2b23c3ff4f70124e4c84c3ad33f590
+Size: 1737
+MD5Sum: 9f173a1d7eeacc4c75df18394440bf63
+SHA256sum: 6d0441f106cccfc3d60e156f2bcb21e1508f0d1db73f2b92991135288f8dff7e
 Description:  Simple DEMO example
 
 Package: empty
@@ -34,11 +34,11 @@ Depends: libc
 Source: feeds/glutinium/empty
 Section: utils
 Architecture: hisilicon
-Installed-Size: 6521
+Installed-Size: 6523
 Filename: empty_0.6.18b-1_hisilicon.ipk
-Size: 7416
-MD5Sum: 73f40b04fb14eb9c670a9d65237b0187
-SHA256sum: 597acf2eb771036dca349e7e26346f0abebbecccb482c48c8475983718d4998c
+Size: 7423
+MD5Sum: 4b7d9c4a4e0a87f1e6b5d098b7d34b14
+SHA256sum: 37c6fd7d0fcee003f4a368e3b0bacd89b0e3c876e9f9fcfe03e0e8a38a5dd077
 Description:  empty is an utility that provides an interface to execute and/or interact
  with processes under pseudo-terminal sessions (PTYs). This tool is
  definitely useful in programming of shell scripts designed to communicate
@@ -55,11 +55,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: Denis G Dugushkin <dentall@mail.ru>
 Architecture: hisilicon
-Installed-Size: 37178
+Installed-Size: 37177
 Filename: estgb_1.2.5-2019-02-11_hisilicon.ipk
-Size: 38035
-MD5Sum: 2d076084aa7a4abcf7b54df22167dc0c
-SHA256sum: a70245ff90875223ee6c0154c8d712a3c2d0d49048abe8a9f935b83a46054da9
+Size: 38070
+MD5Sum: 554e114b0c0fe56d277d495885b95aa9
+SHA256sum: 5c21735848c1752b1cd89f603d833e72d05d12cc55b1826172b2aab17411532f
 Description:  Simply Sender TeleGram Bot based on telebot
 
 Package: etherdump
@@ -70,9 +70,9 @@ Section: net
 Architecture: hisilicon
 Installed-Size: 7259
 Filename: etherdump_2.11-1_hisilicon.ipk
-Size: 7971
-MD5Sum: bc8f4d968d55974d7d941bb24cab010a
-SHA256sum: bbb8598792f82410b267de88c34c5c3d6caf76550dc2983827c30e4f3f444be0
+Size: 7964
+MD5Sum: c2868c1742a329924bf1b06de05887b7
+SHA256sum: aa5d9d2028ae1b368f167e748c566ced25ee0011d5888ab29eafc1554390bb21
 Description:  Etherdump is an extremely small packet sniffer
 
 Package: flash_tool
@@ -86,9 +86,9 @@ Maintainer: chertovmv@gmail.com
 Architecture: hisilicon
 Installed-Size: 5288
 Filename: flash_tool_2019-02-13_hisilicon.ipk
-Size: 6032
-MD5Sum: f424d52299f9cf19476dd5638544a434
-SHA256sum: a980f8409223ce88b0c7e94343ca5d828cf3510b56e8cdb07ca1ae6e54951434
+Size: 6026
+MD5Sum: 9031af67fa1dc7b01d5d0864205bdf38
+SHA256sum: 76b5a22b99ccb82462e97114dda14da1cceb075f88fe785bd2e523739f43cac3
 Description:  Tool for correct work with FLASH chip on Hisilicon SoC's
 
 Package: flyscripts_base
@@ -99,11 +99,11 @@ License: GPL-2.0
 Section: base
 Maintainer: Zig Fisher <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 5494
+Installed-Size: 5483
 Filename: flyscripts_base_2.0.1-1_hisilicon.ipk
-Size: 6189
-MD5Sum: d2360fdf42149eb8e4990719b3f1512a
-SHA256sum: 46ba59cabbaca835eb16af3baf0f12dd2977a9101c3feea921dd0f60a47d2b37
+Size: 6171
+MD5Sum: e2d5f6acac043efecd51c7269f3a94c8
+SHA256sum: 34e8e1ce8d456b8feb4a2d4e3e5938a136dce24e3e536e666c173b06499f13a4
 Description:  Base FlyRouter scripts
 
 Package: flyscripts_zftlab_openipc_base
@@ -114,11 +114,11 @@ License: GPL-2.0
 Section: base
 Maintainer: Zig Fisher <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 1059
+Installed-Size: 1060
 Filename: flyscripts_zftlab_openipc_base_2.0.1-1_hisilicon.ipk
-Size: 1800
-MD5Sum: ff65cb62033931c6da3a7f5b7b86a07b
-SHA256sum: 8153e2d0a6326be84a72da6761150fe6bdb9cd06d46b43b39672f075bf95a911
+Size: 1792
+MD5Sum: 477ce4f6c3324dbf15bf347e8760adfb
+SHA256sum: 1a36d17937886b7de5823f40aa690dc345bcd64d587712a598d70dba5f452810
 Description:  Custom project settings
 
 Package: hi_chip_info
@@ -133,8 +133,8 @@ Architecture: hisilicon
 Installed-Size: 3308
 Filename: hi_chip_info_2019-02-13_hisilicon.ipk
 Size: 4020
-MD5Sum: b3000a8c1525a82758d9ba040aa306df
-SHA256sum: 57929ab76010abbf29b8bf5b8e3cda5bd479979181081f21b5ea54520bfc13f4
+MD5Sum: 8ec6d415f5cf5c8ada6bd26f550beb4a
+SHA256sum: 0dd2a27008c42508b09197741f2cff26b2e7cf69bfa3f2647ad5d52862da98f2
 Description:  Tool for get info from Hisilicon SoC's
 
 Package: hisi-i2c
@@ -146,11 +146,11 @@ LicenseFiles: LICENSE
 Section: openipc
 Maintainer: hisilicon
 Architecture: hisilicon
-Installed-Size: 2623
+Installed-Size: 2625
 Filename: hisi-i2c_2019-02-03-0.1_hisilicon.ipk
-Size: 3383
-MD5Sum: f4c28b2365832e59c7c17f1a3758ce8b
-SHA256sum: ce1e9eafc0e74362076f8019c478c9455198c0ddfc897a340fdda863fc3f9c74
+Size: 3387
+MD5Sum: a4473466941f7b887a6ec92e9fbc8fb9
+SHA256sum: 0bdccba15ce011056cab396a0523937a545c39786d94ed32c0dcf50bd6c6670b
 Description:  I2C read/write tools for hisilicon platform
 
 Package: hisi-osdrv1-base
@@ -164,9 +164,9 @@ Maintainer: Igor Zalatov <flyrouter@gmail.com>
 Architecture: hisilicon
 Installed-Size: 4120
 Filename: hisi-osdrv1-base_3.0.8-1.0.B.0_hisilicon.ipk
-Size: 4895
-MD5Sum: b3c58787d81a87d06a6f803739360cc7
-SHA256sum: 86d2e2ee2bcb253b8f08c534e9d912d5a9e2b15966d37d1b51151c3ae5c87e19
+Size: 4893
+MD5Sum: 09830a762b49b0ff7c1566e3d72f66cf
+SHA256sum: e7e6c3c74062de1d4acead960fe4e907639df7d25b85bb07c3e6f7670650e96a
 Description:  Hisilicon OSDRV-1 - base package
 
 Package: hisi-osdrv1-binary
@@ -178,11 +178,11 @@ LicenseFiles: HISILICON COPYING
 Section: openipc
 Maintainer: Igor Zalatov <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 3446
+Installed-Size: 3447
 Filename: hisi-osdrv1-binary_3.0.8-1.0.B.0_hisilicon.ipk
-Size: 4229
-MD5Sum: 1dd660667fbe98129314bee7acb3b0e9
-SHA256sum: fb04e40b05a50873896a4b71500cec12b3b8d578702deb591370c557948f5964
+Size: 4238
+MD5Sum: 7d93ca440645208b3628b5bfde2aeecc
+SHA256sum: 773d7463467ce9c71a2579164b2d07bedd86b5b1d6a600fd3be4d917185bc572
 Description:  Hisilicon OSDRV-1 - binary package
 
 Package: hisi-osdrv1-kmod
@@ -194,11 +194,11 @@ LicenseFiles: HISILICON COPYING
 Section: openipc
 Maintainer: Igor Zalatov <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 913046
+Installed-Size: 913041
 Filename: hisi-osdrv1-kmod_3.0.8-1.0.B.0_hisilicon.ipk
-Size: 911837
-MD5Sum: 29c6c2a8d6ade6227c89b6175f8020f2
-SHA256sum: 75b90068bd3bb88cc46fbfd5814bcf20c9b6cca41146cb5cf7136a7d025e32a5
+Size: 911844
+MD5Sum: facfcd8bf1b010c9b337ca67525ea39c
+SHA256sum: 684ad7af0af5cb12aaf5d1f4e31592642c16cb4f3084066cf920a81a1988e7d6
 Description:  Hisilicon OSDRV-1 - kmod package
 
 Package: hisi-osdrv1-lib
@@ -210,11 +210,11 @@ LicenseFiles: HISILICON COPYING
 Section: openipc
 Maintainer: Igor Zalatov <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 840211
+Installed-Size: 840207
 Filename: hisi-osdrv1-lib_3.0.8-1.0.B.0_hisilicon.ipk
-Size: 834393
-MD5Sum: 35a178b28f8ad6e50888955ee6a2c87f
-SHA256sum: 4f200cf3ae764f707d58c8d6ba695605bf700f8fa475d0b6a5c1f37d6040392a
+Size: 834458
+MD5Sum: a84894af305257fb9fdf3808df9116bd
+SHA256sum: 85cfa85d3ec658a076daee9a15878dc45983681c524050ea37f5c44c6515e21d
 Description:  Hisilicon OSDRV-1 - lib package
 
 Package: hisi-osdrv1-sensor
@@ -226,11 +226,11 @@ LicenseFiles: HISILICON COPYING
 Section: openipc
 Maintainer: Igor Zalatov <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 105777
+Installed-Size: 105764
 Filename: hisi-osdrv1-sensor_3.0.8-1.0.B.0_hisilicon.ipk
-Size: 105401
-MD5Sum: 4a5226f60be5f3215aebd4396a07aaef
-SHA256sum: 7e3db85a8b3f62bea9520d2f39bc5ab985d6e0c9c1aeefb6e705a02f49c1d50c
+Size: 105420
+MD5Sum: 872c9f7528c92c0e2a75e5d7c510b1d7
+SHA256sum: e95c6b89b066a74f22c45b13c4aebacce2a3ff1726cb33ee1c061bba6df04701
 Description:  Hisilicon OSDRV-1 - sensor package
 
 Package: hisi-rtsp
@@ -242,11 +242,11 @@ LicenseFiles: LICENSE
 Section: openipc
 Maintainer: https://github.com/xibeilang524/hi3518_h264/tree/master/rtspok_utf8
 Architecture: hisilicon
-Installed-Size: 409429
+Installed-Size: 409428
 Filename: hisi-rtsp_2018-05-01-1_hisilicon.ipk
-Size: 409745
-MD5Sum: c87ab49e5336b040799ef2691e490f57
-SHA256sum: 6a783a2949c585bfd9d52ee77b96df066541cd11c483ab2ba0915d1ef761379d
+Size: 409786
+MD5Sum: f42836f68895cbcfa3dc9badafb22d78
+SHA256sum: 7cd8215e7dd4332349d800d4b1e62e5055eb12a4b95fa6ec302fa6f501932ce8
 Description:  Simple RTSP daemon for Hisilicon devices
 
 Package: homes-smart
@@ -256,11 +256,11 @@ Source: feeds/glutinium/homes-smart
 Section: utils
 Maintainer: http://zftlab.org
 Architecture: hisilicon
-Installed-Size: 14903
+Installed-Size: 14909
 Filename: homes-smart_2_hisilicon.ipk
-Size: 15593
-MD5Sum: d2f2a871712a9518002ee44ba4a31551
-SHA256sum: 624b7434d08699349c8211fecc6649dc61bcd75117c45f07dd9d593c3a8da43a
+Size: 15596
+MD5Sum: 93ee13c882ef6ce39dba610470d2c2db
+SHA256sum: 7341303dfe7173b3e05b782f470917ba3d680fb37e970dd14c7e16229487e944
 Description:  Some utils for Homes-smarT project based on USBasp device.
 
 Package: httping
@@ -271,9 +271,9 @@ Section: net
 Architecture: hisilicon
 Installed-Size: 12548
 Filename: httping_1.5.2-1_hisilicon.ipk
-Size: 13338
-MD5Sum: afb6b9a0925b753f5c49220860ed2007
-SHA256sum: 150c7246936401690724425c7c12fd89ba0d6fb037291e85ecaf520ba1075159
+Size: 13351
+MD5Sum: b93cdd496fcd91612771b607655e732d
+SHA256sum: 5aec9bcf268e483a45176c882d68e82b416697c83d871acefd3f665bb1731dd4
 Description:  Give it an url, and it'll show you how long it takes to connect, send a
  request and retrieve the reply (only the headers). Be aware that the
  transmission across the network also takes time!
@@ -285,11 +285,11 @@ Source: feeds/glutinium/i2c-telemetry
 Section: utils
 Maintainer: http://flymon.net
 Architecture: hisilicon
-Installed-Size: 11505
+Installed-Size: 11509
 Filename: i2c-telemetry_2_hisilicon.ipk
-Size: 12191
-MD5Sum: 1166220897a02073ae603e235acbc39c
-SHA256sum: e40a6f36aadb1360845b3f2aefe4ba82298199688025fef0883282e438c941df
+Size: 12195
+MD5Sum: 9878032a3c67a0671fcdf2c2c896d4d3
+SHA256sum: 3c8f768b16b0c9e0dc7cca75d527692c9d1d24bb3056b9424f0f35635bfac7c5
 Description:  Simple I2C telemetry system.
 
 Package: i2c-tools
@@ -298,11 +298,11 @@ Depends: libc
 Source: feeds/glutinium/i2c-tools
 Section: utils
 Architecture: hisilicon
-Installed-Size: 16571
+Installed-Size: 16569
 Filename: i2c-tools_3.0.3-1_hisilicon.ipk
-Size: 17299
-MD5Sum: 422d7fed7acce33fdbc3fd850cd463ff
-SHA256sum: bbda24e2ad5b364d43323bcbf0f1bef523f66fabcba1e8f59092324fa22ed229
+Size: 17301
+MD5Sum: 04459ad4eaa2b73611e2654ef55d6fad
+SHA256sum: f24a3350922904c8ffd4b5d39596de85cf2592b9b07a1c1a89162348671e574f
 Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
  were originally part of the lm-sensors package.
  Includes:
@@ -320,11 +320,11 @@ LicenseFiles: LICENSE
 Section: openipc
 Maintainer: vlad@crimeainfo.com
 Architecture: hisilicon
-Installed-Size: 6773
+Installed-Size: 6774
 Filename: kdb_2019-03-24-0.2_hisilicon.ipk
-Size: 7529
-MD5Sum: 2955cc1f9c34d713704b14d88e83effd
-SHA256sum: 3547e70428dd925f3722fa4dec0ac59e01e1ebf3e418901cd7417952dc7dffe4
+Size: 7530
+MD5Sum: 8bf8a9cfeeb45476b294bb0157fba9d3
+SHA256sum: 3c65b8f635b9ebc6979375d49f5685ab43f21a685c323ebd1ef647f1750d5d45
 Description:  Simple variables manager
 
 Package: littlewire
@@ -336,11 +336,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: http://eko.one.pl
 Architecture: hisilicon
-Installed-Size: 11985
+Installed-Size: 11984
 Filename: littlewire_2014-11-30-1_hisilicon.ipk
-Size: 12738
-MD5Sum: e5bd3ee2c42f2ccbf1ad009b92c3b231
-SHA256sum: e76ee86dcb629c386de107919459c7c680bdd3a3bb1687a86122675f81330d03
+Size: 12735
+MD5Sum: 25bf1ff324e44048aebc98b536ef9016
+SHA256sum: 84223bcb9b9af16817f759f2cdfb733aad206049b1e4b2d670c592a2b4db76ac
 Description:  Little Wire example utilites for for Digispark (tiny85 with USB)
 
 Package: megatec
@@ -352,11 +352,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: https://habr.com/post/397637/
 Architecture: hisilicon
-Installed-Size: 2383
+Installed-Size: 2382
 Filename: megatec_2018-10-01-1_hisilicon.ipk
-Size: 3169
-MD5Sum: 6903b094cbbbb2d41029cb579f378dfd
-SHA256sum: 15237e561a41763d811cfda010e591a352ab6b727a3fa449005c22abcc8748fe
+Size: 3171
+MD5Sum: 4e716111f1ef52a6d8647c7c5969ae86
+SHA256sum: 1619755a548865dde40d28e8a9d96ab012db63df8b51e81af128bbc07d22adab
 Description:  Simple utility for Megatec Protocol UPS
  Idea and basic c++ source file get from https://habr.com/post/397637/ (Russian)
 
@@ -369,11 +369,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: https://github.com/Shden/mercury236
 Architecture: hisilicon
-Installed-Size: 5764
+Installed-Size: 5765
 Filename: mercury236_2017-08-10-1_hisilicon.ipk
-Size: 6501
-MD5Sum: 22a80fd8be4333d3b2c3a728fd8a5d31
-SHA256sum: 9dc4bbadc099d27f99b845fb309e903014cbaa254cc68db9196fbfbbc805148d
+Size: 6516
+MD5Sum: 002ebf3435d1644fc646d27116f6d7ab
+SHA256sum: 1ea4ee2be53a766bb1a6eb94340b04161b601aef8c43de2421b0557298c6d77b
 Description:  Mercury 236 power meter RS485 communication utility
 
 Package: microbe-web
@@ -385,11 +385,11 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Igor Zalatov <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 57572
+Installed-Size: 57573
 Filename: microbe-web_2018-10-10-1_hisilicon.ipk
 Size: 58352
-MD5Sum: 6dac64d0a82e367cf60ffbba405c0753
-SHA256sum: fa7e6f6afbea26d61addef2f3a3ce45062cda37ab54351e471fd9845ff5dac63
+MD5Sum: 6968898d45b14a46d35799b252f0fb53
+SHA256sum: 76390fe667b8f2328cf61b01b8d65a31c631d0f264f9d1a3eeab360dd248a53e
 Description:  Extra small and simple WEB-interface for embedded system
 
 Package: micronucleus
@@ -401,11 +401,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: https://github.com/micronucleus/micronucleus
 Architecture: hisilicon
-Installed-Size: 24419
+Installed-Size: 24410
 Filename: micronucleus_2015-07-29-1_hisilicon.ipk
-Size: 24903
-MD5Sum: 30bd65f75b28376b135f97fc06547311
-SHA256sum: 73634c2fb48422cb5b0194706f1a48d1ca2dfdd0dd5bf8af1d42280ac430243b
+Size: 24912
+MD5Sum: a5a4ca65bbfd52b66d336c4ed0bb6412
+SHA256sum: 803ccd6284a0fa1ef739b7a53ba8b4467196dcc72e34c122fea35bde79d633d3
 Description:  Micronucleus - ATTiny usb bootloader
 
 Package: mii-diag
@@ -417,11 +417,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: https://github.com/oe-lite/base/tree/master/recipes/net-tools/files
 Architecture: hisilicon
-Installed-Size: 12396
+Installed-Size: 12394
 Filename: mii-diag_2018-03-04-1_hisilicon.ipk
-Size: 13174
-MD5Sum: 5206e26a559a83e0be82b8f0eedbd4b1
-SHA256sum: 2dabe8e9774f6b4fdcccc8af18ac14f87270575b088b62e180e8eca48f0142e5
+Size: 13176
+MD5Sum: 17013b4e5e5df7bd428859674492bdd2
+SHA256sum: 2dc5601b1e2f3339358c2e3f9c000d3f9d35dfb406468c1657ce22045bd944a8
 Description:  Network adapter control and monitoring
 
 Package: mtd-utils-mkfs.jffs2
@@ -430,11 +430,11 @@ Depends: libc, mtd-utils, zlib
 Source: feeds/glutinium/mtd-utils
 Section: utils
 Architecture: hisilicon
-Installed-Size: 16014
+Installed-Size: 16012
 Filename: mtd-utils-mkfs.jffs2_1.5.2-2_hisilicon.ipk
-Size: 16658
-MD5Sum: 643527c491dfb37a2ea121d7c1c04aa7
-SHA256sum: 293e2587cc222a3e93141e702271cf52eafcfa882dde346648bed7b316d40ea2
+Size: 16660
+MD5Sum: 6cf3efa9a6d14a699dfeb46931a52869
+SHA256sum: 3087116db7417256bb5e4d211589d8e312ef2ff58d1b6fb4f6714156bd4bc97b
 Description:  mkfs.jffs2 package from mtd-utils
 
 Package: mtd-utils
@@ -445,9 +445,9 @@ Section: utils
 Architecture: hisilicon
 Installed-Size: 105
 Filename: mtd-utils_1.5.2-2_hisilicon.ipk
-Size: 780
-MD5Sum: 27c795fa0e21572053a1bb947848e235
-SHA256sum: b81eb84b1f88c900219fcb5146d2fe45cb6a35893ae924e9dacefb5752d7416d
+Size: 778
+MD5Sum: 4306e8fbbade820b4692c6f3bc34b923
+SHA256sum: 6b8c70732990874c8d000f39f6a3193cc3553c994eeaa9a4144c6e4e0f0884ab
 Description:  Utilities for manipulating memory technology devices.
 
 Package: pjsua
@@ -459,11 +459,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Igor Zalatov <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 409397
+Installed-Size: 409399
 Filename: pjsua_2.4.5-1_hisilicon.ipk
-Size: 409672
-MD5Sum: 5f05266deffeaf32cbb244ac568aedc6
-SHA256sum: 192e23e73d0a5836f9d22eba88bc4c3a2a53d05849ff572c1d9e6663e07e3750
+Size: 409698
+MD5Sum: 950adf1c4d223002908d31333238cf7a
+SHA256sum: 750573d6a7e9e81b8152e5a27e11e3911119137943d24c5dcbc127a7f2f03edb
 Description:  Simple SIP client - pjsua
 
 Package: remserial
@@ -472,11 +472,11 @@ Depends: libc
 Source: feeds/glutinium/remserial
 Section: net
 Architecture: hisilicon
-Installed-Size: 5187
+Installed-Size: 5188
 Filename: remserial_1.4-1_hisilicon.ipk
-Size: 5849
-MD5Sum: 5652ab21f77f0c07d6c4069e44f88fe8
-SHA256sum: cef49535f10568500d76251f2e79f91e514adb2e00ed091eff4fe6e8fd2067d2
+Size: 5857
+MD5Sum: fb65d332e42cb5d3c565bf032018d3c1
+SHA256sum: a9bd9a3a44e29d3203e7d6af9a55fb08b75c0f5ae6afddc0d3fca1018b16bf2a
 Description:  Bridge between a TCP/IP network and serial ports
 
 Package: tg-bot1
@@ -487,11 +487,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Zig Fisher <flyrouter@gmail.com>
 Architecture: hisilicon
-Installed-Size: 3018
+Installed-Size: 3021
 Filename: tg-bot1_2017-11-26-4_hisilicon.ipk
-Size: 3793
-MD5Sum: fcef8854a538ed2699780999d737e41e
-SHA256sum: de977edeafb423d8740796c77f4e5de5c7caf5c7100893eadb117475fb407276
+Size: 3788
+MD5Sum: d532051719cadc1fc53e3eda9baf1da9
+SHA256sum: b8fde7b910e43763d6ef2342ee88377190960fb90c393e5b7571fcc56ea6ab2c
 Description:  TG-Bot1 - simple Telegram bot for OpenWrt based devices
 
 Package: vtun-lite
@@ -500,10 +500,10 @@ Depends: libc, kmod-tun
 Source: feeds/glutinium/vtun-lite
 Section: net
 Architecture: hisilicon
-Installed-Size: 21690
+Installed-Size: 21684
 Filename: vtun-lite_3.0.2-1_hisilicon.ipk
-Size: 22343
-MD5Sum: 103d63d73f0d124ec6721817f6386175
-SHA256sum: 69df3f41c4ed8d8826f09147c547a1050f02569d3fdb5e75636ddf27adea6bd5
+Size: 22320
+MD5Sum: 4ec5d1d5a49065b0aba5d4c41c2fe265
+SHA256sum: 5f24d8db3c08782227ed5ee0ee09b684a2979dc2d9a7a510dbbad9172f9db2bd
 Description:  VPN tunneling daemon (no ssl/lzo/zlib)
 

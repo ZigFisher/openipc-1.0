@@ -7,11 +7,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
 Architecture: hisilicon
-Installed-Size: 10804
+Installed-Size: 10801
 Filename: bwm-ng_0.6-1_hisilicon.ipk
-Size: 11585
-MD5Sum: 391801999ffecda9fbbe582f0a8eb45c
-SHA256sum: 1684fe104238b24713e6491fda33bcfdea1161669b66ae3c3d3dd2546705df95
+Size: 11591
+MD5Sum: 595c2c6419e3e3636b8551607d80a96c
+SHA256sum: bfcfc2be5c0c6e4f863bac31debfbe0acd3305b54e71baa007faef96ecd4ca93
 Description:  Bandwidth Monitor NG is a small and simple console-based live
  network and disk io bandwidth monitor.
 
@@ -26,9 +26,9 @@ Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
 Architecture: hisilicon
 Installed-Size: 83279
 Filename: ethtool_3.18-1_hisilicon.ipk
-Size: 83986
-MD5Sum: 8cc2590e9ec1b38a03ade458de038c7c
-SHA256sum: 1c153a25acee7984f22fb3979798524fdb4ca7aaff7f5b315fbb132986ad59cf
+Size: 83935
+MD5Sum: aa72c334304f85e57fbaa047b3e875af
+SHA256sum: e96f48944d8f55fbd029151048a9fc4efa31f24ac804c270ef00408384052b65
 Description:  ethtool is a small utility for examining and tuning your ethernet-based
  network interface
 
@@ -41,11 +41,11 @@ LicenseFiles: COPYING
 Section: utils
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: hisilicon
-Installed-Size: 9676
+Installed-Size: 9677
 Filename: haserl_0.9.35-1_hisilicon.ipk
-Size: 10434
-MD5Sum: 7427fd8c5ed9b14fbc2c24a40fc04b7a
-SHA256sum: 6b198130e9b8ad60eaede7ab2db29e8a962e1cc51da59d8bf3570ff537238aed
+Size: 10437
+MD5Sum: 086397a24a9de651a999f29a060445cf
+SHA256sum: 57f96930e47a881b70cb030e38fb558df80ed824116a586c0dcbe516b1da2fe9
 Description:  A CGI wrapper to embed shell scripts in HTML documents
 
 Package: lame-lib
@@ -57,11 +57,11 @@ LicenseFiles: COPYING LICENSE
 Section: sound
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: hisilicon
-Installed-Size: 122359
+Installed-Size: 122357
 Filename: lame-lib_3.99.5-1_hisilicon.ipk
-Size: 122942
-MD5Sum: be2e0b7cb357aaca5325dd73dc3cf424
-SHA256sum: daa6361276456240cf0f99d8e637c17b293d10429883c6208431acabed67d6d7
+Size: 122913
+MD5Sum: 7515ebc900106dd82ad3f1e82e3512e7
+SHA256sum: 51dd60efec4c21081534a0e84b03687fc5f27405a553d46f3b4718aa884cabbd
 Description:  lame mp3 encoder libs
 
 Package: libcares
@@ -72,11 +72,11 @@ License: MIT
 Section: libs
 Maintainer: Karl Palsson <karlp@remake.is>
 Architecture: hisilicon
-Installed-Size: 25064
+Installed-Size: 25063
 Filename: libcares_1.10.0-1_hisilicon.ipk
-Size: 25894
-MD5Sum: a986caf222cb513449013612744a0b9d
-SHA256sum: a4b8a09fbfb2499742520beed49f06e5ab0b7ff1cd97b87b6e6117c0fb96a7bc
+Size: 25890
+MD5Sum: e1e7518ecdce5e7be5f3464a275a709f
+SHA256sum: 0385a7c4abe956787bc58ac5caea7251feea7494d1e9e2c256e987cfaaa2d85c
 Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
  
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
@@ -93,9 +93,9 @@ Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
 Architecture: hisilicon
 Installed-Size: 27661
 Filename: libfko_2.6.6-4_hisilicon.ipk
-Size: 28690
-MD5Sum: c92bec86321d2dcbd0046fce048eb868
-SHA256sum: 54b87149c9aad3cf5e8b4661cb0959a359d3362d4b4d0830023eebe85f86d218
+Size: 28709
+MD5Sum: c7f1a77da69e745dbbbcbecd8349b562
+SHA256sum: 1671b4c6ced7e074f3841d8fe56ff751be8da7ada54df5e970a160f5898716f8
 Description:  Fwknop implements an authorization scheme known as Single Packet Authorization
  (SPA) for Linux systems running iptables.  This mechanism requires only a
  single encrypted and non-replayed packet to communicate various pieces of
@@ -113,11 +113,11 @@ Source: feeds/packages/libs/libgcrypt
 Section: libs
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: hisilicon
-Installed-Size: 269544
+Installed-Size: 269543
 Filename: libgcrypt_1.6.1-1_hisilicon.ipk
-Size: 269381
-MD5Sum: afcacf1e449c4230f633825e31038f7b
-SHA256sum: c973883a76c9c809e4466158b5cead2b3ce8ff36d0dfdafd0639936db60de1fe
+Size: 269378
+MD5Sum: ba9fcbbb4b1c1d6c877245af68d1c08b
+SHA256sum: 50aa3988348081e684f9157e7d508263ee13dbc911c858343c92432c40618b5f
 Description:  This is a general purpose cryptographic library based on the code from
  GnuPG. It provides functions for all cryptograhic building blocks:
  symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
@@ -137,9 +137,9 @@ Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: hisilicon
 Installed-Size: 350753
 Filename: libgnutls_3.4.15-1_hisilicon.ipk
-Size: 349815
-MD5Sum: 66af0b7459b4696d793acdb3eb5ae9fd
-SHA256sum: fbf12b82c6a0bbea63554a8a23e913a31623c2a9edbb7a87f299b1fba9a6149f
+Size: 349784
+MD5Sum: ef1c3a5d5a57a6f457dd8ff71f604706
+SHA256sum: fd9e56a0fbfde1065f8c17ed9c80c6a4f5f5c140a7e585294dc63f1f1c0818be
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -155,11 +155,11 @@ Source: feeds/packages/libs/libgpg-error
 Section: libs
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: hisilicon
-Installed-Size: 5240
+Installed-Size: 5243
 Filename: libgpg-error_1.12-1_hisilicon.ipk
-Size: 6068
-MD5Sum: dea7ce4a2cb7a550e6e148398c927ccf
-SHA256sum: deb225d77fa4776446784673d9225291c017cbcb8bab3e29573e6f793c899b65
+Size: 6069
+MD5Sum: 0fb33a1c6d37eb5a83eaaeaf5c37f1bd
+SHA256sum: 042a541839ca84bdbf0eb290a3cd2b3673a473f9949b66806b213d88116c3c9c
 Description:  An helper library for common error codes and descriptions.
  This is a library that defines common error values for all GnuPG
  components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
@@ -177,9 +177,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 94264
 Filename: libjpeg_9a-1_hisilicon.ipk
-Size: 94865
-MD5Sum: e7b5b72c4259c24ca6015d6e4992c49a
-SHA256sum: 3a30f2f6779232fa78eb350b29862cadd3297b41c15018388fa1d8048048cb4f
+Size: 94892
+MD5Sum: c7125905d115e91fe88ed5ee5c15d3d2
+SHA256sum: 86988bf35aa543f05627048aacd47eddbdd3428ff473dc365e936b2650a18136
 Description:  The Independent JPEG Group's JPEG runtime library
 
 Package: libmosquitto-nossl
@@ -192,11 +192,11 @@ Section: libs
 Require-User: mosquitto=200:mosquitto=200
 Maintainer: Karl Palsson <karlp@etactica.com>
 Architecture: hisilicon
-Installed-Size: 16510
+Installed-Size: 16512
 Filename: libmosquitto-nossl_1.4.10-1_hisilicon.ipk
-Size: 17451
-MD5Sum: 5464c9c3a1a829bae8c61d856ad5605f
-SHA256sum: 3bf15fa3e5435db54116319af08d89433f684ea3dd7ab21ef6d4261da21d3d7f
+Size: 17455
+MD5Sum: 7d2c458dda6189a05407613920ac78c0
+SHA256sum: aa566dff3faad5edd7a0426e65cb5802c0ce4c419bed8d130c06c0c891880b89
 Description:  Library required for mosquitto's command line client tools, also for
  use by any third party software that wants to communicate with a
  mosquitto server.
@@ -216,9 +216,9 @@ Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: hisilicon
 Installed-Size: 184381
 Filename: mjpg-streamer_r182-7_hisilicon.ipk
-Size: 185302
-MD5Sum: dc2e4ca0a712d0c366f997f2e8827e5a
-SHA256sum: 7bc6ef36f9d26b839114ab72f749097197f4077f25def2843bd937ff1552cf2c
+Size: 185298
+MD5Sum: 77bddc2cb6411df57e6884a27adba690
+SHA256sum: be3ec1798bcf7b0b9d18327200edd2b55b60dc509b6c17825d71a5c7703e856c
 Description:  Streaming application for Linux-UVC compatible webcams
 
 Package: mosquitto-client-nossl
@@ -233,9 +233,9 @@ Maintainer: Karl Palsson <karlp@etactica.com>
 Architecture: hisilicon
 Installed-Size: 13575
 Filename: mosquitto-client-nossl_1.4.10-1_hisilicon.ipk
-Size: 14293
-MD5Sum: 5f2b46eb1fb729f59ecffcefd81d58d5
-SHA256sum: e02db6b9144828919cc3c278fc05ae2008b98b30b652b9e5ceb419751bf9c712
+Size: 14292
+MD5Sum: 712d8653d3cf43f65e0a4d186a42b869
+SHA256sum: c63fb30976ad04801a6681216e74e311577763989a8ce139b8e2eb3af0f561c5
 Description:  Command line client tools for publishing messages to MQTT servers
  and subscribing to topics.
  This package is built without SSL support
@@ -249,11 +249,11 @@ LicenseFiles: COPYING
 Section: multimedia
 Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: hisilicon
-Installed-Size: 95233
+Installed-Size: 95236
 Filename: motion_3.4.0-20141018-9479d910f2149b5558788bb86f97f26522794212-1_hisilicon.ipk
-Size: 95889
-MD5Sum: a06298ff010b0d33e2bbed458b2f1359
-SHA256sum: 2b5eaa40594d739dd61e393e0fef215870f17ecf921e2e245e311bbb129dd48a
+Size: 95910
+MD5Sum: fed4f09d84484ede86e4f540802bae21
+SHA256sum: 8d49314162a87f0ba52d2a922dc58f9c3591eea44f53bc43f50aaba01ae0e6d9
 Description:  webcam motion sensing and logging
 
 Package: ser2net
@@ -267,9 +267,9 @@ Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: hisilicon
 Installed-Size: 27874
 Filename: ser2net_2.10.0-2_hisilicon.ipk
-Size: 28646
-MD5Sum: 55e48e5177d33aee2be57caf482aefd7
-SHA256sum: 765db15c6eaf2ebf97fac32719cfee1993ee8e34eba62d2c54b0246128c72272
+Size: 28604
+MD5Sum: 4b3f9a35faeda4f641de6e0da1ba51ef
+SHA256sum: 99d00bcf0f2f12784d08e769e3af5f9a3e370ba8495976f2e68bf04e27b1e61a
 Description:  This project provides a proxy that allows telnet/tcp connections to be made to
  serial ports on a machine.
 

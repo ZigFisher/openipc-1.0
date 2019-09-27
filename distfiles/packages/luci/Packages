@@ -4,11 +4,11 @@ Depends: libc
 Source: feeds/luci/applications/luci-app-commands
 Section: luci
 Architecture: all
-Installed-Size: 4201
+Installed-Size: 4203
 Filename: luci-app-commands_git-18.097.75958-5537d68-1_all.ipk
-Size: 4899
-MD5Sum: d3af77e91264c595789cf3ee7a764ddb
-SHA256sum: ac992e03413f5fe79a938bad87aacda81a72cd6f6afbfde20dba0600d745ba0e
+Size: 4906
+MD5Sum: bdc22fed135afc2d943b301f3a0124be
+SHA256sum: 71d91b72f27c7b03b10e0d91aa47e87ac010d58185e4a2be08fe3a68341d1dfc
 Description:  LuCI Shell Command Module
 
 Package: luci-app-mjpg-streamer
@@ -17,11 +17,11 @@ Depends: libc, mjpg-streamer
 Source: feeds/luci/applications/luci-app-mjpg-streamer
 Section: luci
 Architecture: all
-Installed-Size: 3048
+Installed-Size: 3050
 Filename: luci-app-mjpg-streamer_git-18.097.75958-5537d68-1_all.ipk
-Size: 3830
-MD5Sum: bde4b9b615bc37489026e19826b8a214
-SHA256sum: 37ea8bd8991f5b81201467fec4d421cdad5f910411358ba8078da725c91746f0
+Size: 3833
+MD5Sum: 7f5d72eb1d9c450e758ff89dae8b1c3b
+SHA256sum: aefcdcc97de4bba68b417ac7476d92da752853c8e5798eb4eb54550a8115a2ce
 Description:  MJPG-Streamer service configuration module
 
 Package: luci-base
@@ -30,11 +30,11 @@ Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua
 Source: feeds/luci/modules/luci-base
 Section: luci
 Architecture: hisilicon
-Installed-Size: 123489
+Installed-Size: 122953
 Filename: luci-base_git-18.097.75958-5537d68-1_hisilicon.ipk
-Size: 124339
-MD5Sum: a66e2cc34970e316c03ef75f272a0f6e
-SHA256sum: 13d8edc950f68dfb6f676bd6b41aaa494f8535db227552aed1d25503cc8caaf5
+Size: 123817
+MD5Sum: b3e7d6f0cec1b9f5e32de78c20178416
+SHA256sum: 2371853f9f2caa382d877814f0d90bf5781fda5e314756b8c2e4a45387e68f9a
 Description:  LuCI core libraries
 
 Package: luci-i18n-base-en
@@ -43,11 +43,11 @@ Depends: libc, luci-base
 Source: feeds/luci/modules/luci-base
 Section: luci
 Architecture: all
-Installed-Size: 725
+Installed-Size: 722
 Filename: luci-i18n-base-en_git-18.097.75958-5537d68-1_all.ipk
-Size: 1502
-MD5Sum: 6459fa156c6df1bbaaa09229bf70416d
-SHA256sum: b724481a34ed5199c212e0e1f41ef859ee3f8993b021c8b795101cee7459d8be
+Size: 1503
+MD5Sum: b868670141f33907116de99bb1290850
+SHA256sum: 73eef252b291c3f7e657bd860aea914d7d40355e5832f99a1583a84e082fdc00
 Description:  Translation for luci-base - English
 
 Package: luci-i18n-commands-en
@@ -56,11 +56,11 @@ Depends: libc, luci-app-commands
 Source: feeds/luci/applications/luci-app-commands
 Section: luci
 Architecture: all
-Installed-Size: 304
+Installed-Size: 305
 Filename: luci-i18n-commands-en_git-18.097.75958-5537d68-1_all.ipk
-Size: 1081
-MD5Sum: 8e9cafeced3ed6d0b39ac61033b4ed03
-SHA256sum: 370c017b64f8faadfd5cb457cd53cf3d0cfb0ad050ad872d518a8c3a4a60e5c2
+Size: 1080
+MD5Sum: 2ca793482fac918fa31dbe5caac1b285
+SHA256sum: c3cfbe1c941745a8066a9f1ec1286c6b24e09bba6cec1245d1473046240fb1fb
 Description:  Translation for luci-app-commands - English
 
 Package: luci-lib-ip
@@ -69,11 +69,11 @@ Depends: libc, liblua, libnl-tiny
 Source: feeds/luci/libs/luci-lib-ip
 Section: luci
 Architecture: hisilicon
-Installed-Size: 8640
+Installed-Size: 8635
 Filename: luci-lib-ip_git-18.097.75958-5537d68-1_hisilicon.ipk
-Size: 9361
-MD5Sum: 05e0569037383cbfa9d779cbb91fa77d
-SHA256sum: e48b802b29bdb8b99cb4d6f3b048a8cd1d7250292991ebf17c55c5ba45b3f5bb
+Size: 9356
+MD5Sum: 578b16192f7fafa165a69e49ff0f5de1
+SHA256sum: e55b5a186fc2d8283f447fae5848a69b723ec270692159e1ceb2be975471acb1
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-nixio
@@ -82,11 +82,11 @@ Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-nixio
 Section: luci
 Architecture: hisilicon
-Installed-Size: 28811
+Installed-Size: 28809
 Filename: luci-lib-nixio_git-18.097.75958-5537d68-1_hisilicon.ipk
-Size: 29275
-MD5Sum: 589623c8d02ab3e6fa71718e9afdb93a
-SHA256sum: 18b250ce12db9d5793cd868516e083e016c99d7ec489614af3baf9eb5b4ee6e9
+Size: 29258
+MD5Sum: c6896f59c5f8d858028cd42b7a09a263
+SHA256sum: 518bb9b2dfb4012f0e9843d83364e98d41e9e35290404102c291dc0964bd8491
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full
@@ -95,11 +95,11 @@ Depends: libc, luci-base
 Source: feeds/luci/modules/luci-mod-admin-full
 Section: luci
 Architecture: hisilicon
-Installed-Size: 69846
+Installed-Size: 69843
 Filename: luci-mod-admin-full_git-18.097.75958-5537d68-1_hisilicon.ipk
-Size: 70684
-MD5Sum: 1260bc97eb434230ab7f947349067dba
-SHA256sum: ee920cfdedac124b7a000b871c5c4f432e4e9becc7525224ef934818aa60f67b
+Size: 70678
+MD5Sum: d6d2ef27584d4740748d99ef712ba272
+SHA256sum: 1fb5351450ca50d6337d77fd9fd84da35987382c54063e9d1b2203878aa88752
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-theme-bootstrap
@@ -108,11 +108,11 @@ Depends: libc
 Source: feeds/luci/themes/luci-theme-bootstrap
 Section: luci
 Architecture: all
-Installed-Size: 12859
+Installed-Size: 12860
 Filename: luci-theme-bootstrap_git-18.097.75958-5537d68-1_all.ipk
-Size: 13589
-MD5Sum: b9da8e3991ddc9bf0df3f32d652f226f
-SHA256sum: 31d82a5763a82860ff66f05537d1815525f95165a15664885c6a67066bd86e6c
+Size: 13588
+MD5Sum: 5d0598a408d9879c6a8280ba5eb9088d
+SHA256sum: c097698499c1c85fa375d77be88cefe8458844da334852644d9c80a2b6e833a6
 Description:  Bootstrap Theme (default)
 
 Package: luci
@@ -121,10 +121,10 @@ Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstra
 Source: feeds/luci/collections/luci
 Section: luci
 Architecture: all
-Installed-Size: 103
+Installed-Size: 105
 Filename: luci_git-18.097.75958-5537d68-1_all.ipk
-Size: 867
-MD5Sum: cdafb09fffb46cc84f68be8bf4d7953b
-SHA256sum: 22f8cc0b03302d119688d8bc7a8465b4e77ef3b55bac029662fd325462a6a2bf
+Size: 869
+MD5Sum: 3cb2a83d5523021a428505222542a3cd
+SHA256sum: b4480f8b8503d86e7034c91d53c6e331fbfd4aa9e30d6267e1aa876aab1b2a98
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
