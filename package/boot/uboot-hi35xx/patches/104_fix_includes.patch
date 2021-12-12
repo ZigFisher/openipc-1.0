@@ -1,0 +1,48 @@
+--- a/include/fdt_support.h	2018-04-26 06:57:52.000000000 +0300
++++ b/include/fdt_support.h	2021-11-26 12:34:00.074195265 +0200
+@@ -26,7 +26,7 @@
+ 
+ #ifdef CONFIG_OF_LIBFDT
+ 
+-#include <fdt.h>
++#include "fdt.h"
+ 
+ u32 fdt_getprop_u32_default(void *fdt, const char *path, const char *prop,
+ 				const u32 dflt);
+--- a/include/image.h	2018-04-26 06:57:52.000000000 +0300
++++ b/include/image.h	2021-11-26 12:33:50.620403334 +0200
+@@ -51,9 +51,9 @@
+ #endif /* USE_HOSTCC */
+ 
+ #if defined(CONFIG_FIT)
+-#include <fdt.h>
+-#include <libfdt.h>
+-#include <fdt_support.h>
++#include "fdt.h"
++#include "libfdt.h"
++#include "fdt_support.h"
+ #define CONFIG_MD5		/* FIT images need MD5 support */
+ #define CONFIG_SHA1		/* and SHA1 */
+ #endif
+--- a/include/libfdt.h	2018-04-26 06:57:52.000000000 +0300
++++ b/include/libfdt.h	2021-11-26 12:34:06.233059720 +0200
+@@ -52,7 +52,7 @@
+  */
+ 
+ #include <libfdt_env.h>
+-#include <fdt.h>
++#include "fdt.h"
+ 
+ #define FDT_FIRST_SUPPORTED_VERSION	0x10
+ #define FDT_LAST_SUPPORTED_VERSION	0x11
+--- a/lib/libfdt/libfdt_internal.h	2018-04-26 06:57:52.000000000 +0300
++++ b/lib/libfdt/libfdt_internal.h	2021-11-26 12:36:21.575081672 +0200
+@@ -50,7 +50,7 @@
+  *     OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+  *     EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  */
+-#include <fdt.h>
++#include "../../include/fdt.h"
+ 
+ #define FDT_ALIGN(x, a)		(((x) + (a) - 1) & ~((a) - 1))
+ #define FDT_TAGALIGN(x)		(FDT_ALIGN((x), FDT_TAGSIZE))
